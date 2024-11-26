@@ -1,0 +1,195 @@
+preeti@deepti:/var/www/html/ml/app/scripts/resume_parser_effort$ python3 parse.py 
+Resume_091023134709_.docx:
+Name: ['Ryan', 'Heald']
+Extracted Name List: ['Ryan Heald', 'Bonney Lake', 'Microsoft Office', 'Google Workspace', 'Revenue Operations', 'Taylor Farms', 'Data Analyst', 'Customer Service', 'Analyzed Line', 'Production Sequencing', 'Manage Variable', 'Production Schedule', 'Inventory Supply', 'Vantage Point', 'Red Zone', 'Implemented Demand', 'American Express', 'Global Business', 'Business Analyst', 'Team Lead', 'Quality Analyst', 'Customer Service', 'Global Business', 'Edmonds College', 'Associates Degree', 'Associates Certificate', 'Honor List', 'Classes Included', 'Business Management', 'Microsoft Office', 'Received Excellence', 'Mathematics Award', 'Johns Hopkins']
+Extracted Email Part: RSHeald1
+{'name': ['Ryan', 'Heald'], 'email': 'RSHeald1@msn.com', 'phone': '18718 135'}
+
+**************************************************
+
+Resume_051124151809_.pdf: recheck
+Name: ['Sugar', 'Land']
+Extracted Name List: ['Sugar Land', 'Gas Industries', 'Document Management', 'Software Programs', 'Microsoft Office', 'Outlook Word', 'Ariba Spend', 'Ariba Guided', 'Project Controls', 'Entered Purchase', 'Change Orders', 'Good Receipts', 'Contingent Labor', 'Ariba Spend', 'Ariba Guided', 'Accounts Payable', 'Contingent Labor', 'Project Monthly', 'Monthly Project', 'Gate Reviews', 'Four Block', 'Transcribed Meetings', 'Accolade Administrator', 'Senior Project', 'Program Admin', 'High Profile', 'Home Office', 'Contact List', 'Distribution Groups', 'Client Lists', 'Organization Charts', 'Event Planning', 'Assisted Accounting', 'Project Control', 'Project Admin', 'High Profile', 'Client References', 'Aerospace Primes', 'Energy Services', 'Engineering Coordinator', 'Business Development', 'Space Convention', 'Adjusted Invoices', 'Payment Dates', 'Started Quality', 'Filing Systems', 'Amec Foster', 'Wheeler Oil', 'Kizomba Project', 'Yuhuang Methanol', 'Chemical Plant', 'James Parish', 'Sugar Land', 'Lead Project', 'Travel Coordinator', 'Intensive Worldwide', 'Travel Arrangements', 'Coordinated Automobiles', 'Expat Rotation', 'Corporate Personal', 'Emergency Contact', 'Emergency Retrieval', 'Life Flight', 'Home Office', 'Home Office', 'Project Contract', 'Project Teams', 'Weekly Reports', 'Travel Agencies', 'Cameron Joint', 'Venture Company', 'Project Administrative', 'Vendor Data', 'Overseas Factories', 'Contract Administration', 'Accounts Payable', 'Maintained Vendor', 'Major Capital', 'Document Management', 'Weekly Status', 'Contact Administration', 'Project Shipping', 'Receiving Coordinator', 'Primary Source', 'Contract Admin', 'Forklift Licensed', 'Transportation Companies', 'Updated Logistics', 'Daily Shipping', 'Receiving Coordinator', 'Dynamic Flow', 'Production Coordinator', 'Purchase Orders', 'Sales Orders', 'Gas Conventions', 'Air Way', 'Receiving Manager', 'Daily Packed', 'Flow Computers', 'Measurement Instruments', 'Human Resources', 'Quality Control', 'Sugar Land']
+Extracted Email Part: rachelgordon.nucleus
+{'name': ['Sugar', 'Land'], 'email': 'rachelgordon.nucleus@gmail.com', 'phone': '77478'}
+
+**************************************************
+
+Resume_140624131206_.docx: recheck
+Name: ['I', 'have', 'three', 'kids', 'that', 'keep', 'me', 'very', 'busy', 'in', 'the', 'various', 'passions', 'and', 'pursuits.', 'Also']
+Extracted Name List: ['Laser Table', 'Ridge Banston', 'Westrock Farm', 'Implemented Self', 'Harley Davidson', 'Actively Participated', 'Delaware Exaserv', 'North America', 'Red Prairie', 'Systems Analyst', 'Tyler Technologies', 'Solution Manager', 'Level Packaging', 'Schedule Agreements', 'Info Pricing', 'Output Controls', 'Packing Slips', 'Smart Forms', 'Invoice Forms', 'Inventory Management', 'Plant Manager', 'Manufacturing Requirements', 'Customer Aperaks', 'Sales Scheduling', 'Sales Orders', 'Label Management', 'Management Information', 'Computer Information', 'Printer Server', 'Windows Mobile', 'Smart Systems', 'Datamax Label']
+Extracted Email Part: banstonr
+{'name': None, 'email': 'banstonr@gmail.com', 'phone': '45322'}
+
+**************************************************
+
+Resume_140624130816_.docx: check
+{'name': ['Omolayo', 'Ojo', 'Tolulope'], 'email': None, 'phone': None}
+
+**************************************************
+
+Resume_091023140018_Joshua-Price-.docx: check
+{'name': ['Joshua', 'Price-Mahdi'], 'email': None, 'phone': None}
+
+**************************************************
+
+Resume_061124001647_Glenn_Wallace_Sr._Network_Engineer_February_2024.docx: check
+Name: ['GLENN', 'E.', 'WALLACE', 'JR.']
+Extracted Name List: ['Tactical Planning', 'Service Improvement', 'Best Practices', 'Resource Planning', 'Vendor Management', 'Team Lead', 'Operations Focused', 'Project Execution', 'Remote Team', 'Problem Solver', 'Network Administrator', 'Universal Health', 'Amazon Cloud', 'Cloud Trial', 'Single Node', 'Assign Folders', 'Security Delete', 'Users Cisco', 'Add Site', 'Network Analyst', 'Orange County', 'Transportation Authority', 'Cisco Nexus', 'Security Pre', 'Pre Rules', 'Pre Rules', 'Configured Azure', 'Network Connection', 'Microsoft Entra', 'Hybrid Microsoft', 'Entra Join', 'Provisioning Cloud', 'Domain Windows', 'Palo Alto', 'Network Traffic', 'Network Engineer', 'Daylight Transport', 'Security Policy', 'Global Protect', 'Systems Engineers', 'Data Center', 'Digital Realty', 'Palo Alto', 'Networks Firewall', 'Malware Content', 'Palo Alto', 'Network Traffic', 'Amazon Cloud', 'Cisco Network', 'Wireless Traffic', 'Access Layer', 'Meru Networks', 'Cisco Legacy', 'Wireless Access', 'Network Controller', 'Guest Wireless', 'Wireless Forklift', 'Routing Protocols', 'Microsoft Lync', 'Citrix Network', 'Server Load', 'Citrix Netscaler', 'Network Distributed', 'Switch Configuration', 'Management Tools', 'Network Infrastructure', 'Citrix Access', 'Microsoft Office', 'Network Configuration', 'Network Infrastructure', 'Unix Operating', 'Network Traffic', 'Microsoft Lync', 'Network Configuration', 'Troubleshooting Data', 'Voice Circuits', 'Network Engineer', 'Cisco Unity', 'Cisco Call', 'Data Center', 'Palo Alto', 'Irvine Jamboree', 'Zayo Data', 'Cisco Router', 'Cisco Anyconnect', 'Network Engineer', 'Two Data', 'Centers Active', 'Dual Carrier', 'Cisco Wireless', 'Cisco Aironet', 'Context Austin', 'Data Center', 'Data Center', 'Data Centers', 'Sr Telecommunication', 'Primary Data', 'Irvine California', 'Central Justice', 'Data Center', 'Central Justice', 'West Justice', 'Cisco Nexus', 'Dual Supervisors', 'Radware Alteons', 'Network Engineer', 'Network Operations', 'Supported Honda', 'Global Network', 'Two Data', 'Torrance California', 'Dual Carrier', 'Back Haul', 'Firewall Walls', 'Cisco Pix', 'Riverbed Interceptor', 'Troubleshot Network', 'Troubleshot Remote', 'Access Hard', 'Soft Token', 'Aruba Controller', 'Network High', 'Performance Issues', 'Troubleshot Load', 'Requirements Change', 'Cisco Works', 'Troubleshot Wireless', 'Access Points', 'Web Server', 'Load Balancing', 'Remote Authentication', 'Local Traffic', 'Network Outages', 'Troubleshot Workstation', 'Remote Offices', 'Regional Offices', 'Network Engineer', 'Cisco Works', 'Network Refresh', 'Upgrading Level', 'Gigabyte Ethernet', 'Troubleshot Network', 'Technical Calls', 'Database Admin', 'Aruba Controller', 'Network High', 'Cisco Works', 'Netflow Analysis', 'Troubleshot Load', 'Requirements Change', 'Cisco Works', 'Troubleshot Wireless', 'Access Points', 'Web Server', 'Load Balancing', 'Remote Authentication', 'Local Traffic', 'Network Outages', 'Troubleshot Workstation', 'Remote Offices', 'Regional Offices', 'Network Engineer', 'Network Infrastructure', 'Upgraded Access', 'Upgraded Distribution', 'Upgraded Ether', 'Distribution Layer', 'East Regions', 'East Regions', 'East Regions', 'Local Preference', 'Technical Environments', 'Long Beach', 'Infrastructure Technologies', 'Palo Alto', 'Cisco Nexus', 'Aruba Wireless', 'Riverbed Steelhead', 'Cable Modem', 'Time Warner', 'Fluke Network', 'Cisco Prime', 'Technologies Supported', 'Medical Imaging', 'Data Center', 'Remote Access', 'Windows Active', 'Guest Internet', 'Wireless Smartphones', 'Handheld Devices', 'Software Applications', 'Microsoft Windows', 'Lotus Notes', 'Health Information', 'Portability Accountability', 'Sarbanes Oxley', 'Payment Credit', 'Information Technology', 'Infrastructure Library']
+Extracted Email Part: gnoc192
+{'name': ['GLENN', 'E.', 'WALLACE', 'JR.'], 'email': 'gnoc192@gmail.com', 'phone': '92878'}
+
+**************************************************
+
+Resume_140624125634_.pdf: recheck
+Name: ['Summary:']
+Extracted Name List: ['Technical Skills', 'Adobe Photoshop', 'Responsive Design', 'Android App', 'Dashboard Design', 'Usability Testing', 'Visual Design', 'Information Architecture', 'Data Analysis', 'Interaction Design', 'Professional Experience', 'Ed Rios', 'Product Designer', 'Elite Partner', 'Product Designer', 'Ed Rios', 'Edward Rios', 'Product Designer', 'Eleven Corporation', 'Matrix Resources', 'Eleven Enterprise', 'Converted Sketch', 'Eleven Product', 'Hanu Software', 'Customer Lifetime', 'Facilitate Joint', 'Application Requirement', 'Facilitate Joint', 'Application Design', 'Sekrit Agency', 'Las Vegas', 'Care First', 'Health Care', 'Land Rover', 'Product Designer', 'Marketing Team', 'Higher Education', 'Western Association', 'Graphic Design', 'Desktop Publishing', 'Interaction Design', 'Design Course']
+Extracted Email Part: edwardriossr
+{'name': None, 'email': 'edwardriossr@gmail.com', 'phone': '+1 916-277-5449'}
+
+**************************************************
+
+Resume_091023125848_.docx: recheck
+Name: ['Omar', 'Preciado']
+Extracted Name List: ['Omar Preciado', 'Technical Management', 'Check Point', 'Firewall Administration', 'Application Software', 'North America', 'Advanced Infrastructure', 'Network Engineer', 'Kelly Services', 'Administer Company', 'Check Point', 'Firewall Security', 'Meraki Cloud', 'Segmentation Security', 'North American', 'Aurobindo Pharma', 'Network Administrator', 'East Windsor', 'Administer Windows', 'Active Directory', 'Benenson Strategy', 'Network Administrator', 'New York', 'Active Directory', 'Cloud Exchange', 'Sales Specialist', 'Madison Square', 'Field Service', 'System Installer', 'Productions Inc', 'Anthem Institute', 'Computer Networking', 'Technical Certifications', 'Now Expired', 'Professional Experience', 'Professional Experience']
+Extracted Email Part: opreciado
+{'name': None, 'email': 'opreciado@outlook.com', 'phone': '201.697.8630'}
+
+**************************************************
+
+Resume_091023134424_.pdf:
+{'name': ['Ann', 'Meneses'], 'email': None, 'phone': '2019-12'}
+
+**************************************************
+
+Resume_140624125734_.docx: cehck
+Name: ['Rohan', 'Mohapatra']
+Extracted Name List: ['Rohan Mohapatra', 'Senior Sitecore', 'Web Developer', 'Software Development', 'Developed Web', 'Test Driven', 'Design Patterns', 'Relational Databases', 'Designed Application', 'Service Oriented', 'System Integration', 'Prepared Requirement', 'Effort Estimation', 'Impact Analysis', 'Web Technologies', 'Senior Sitecore', 'Real Estate', 'Till Date', 'Data Exchange', 'Coveo Hive', 'Provided Solution', 'Web Applications', 'Data Exchange', 'Coveo Hive', 'Test Driven', 'Contributed Design', 'Project Estimations', 'Review Code', 'Pull Requests', 'Senior Sitecore', 'Paint Company', 'Sitecore Jss', 'Provided Solution', 'Headless Web', 'Provided Integration', 'Test Driven', 'Contributed Design', 'Project Estimations', 'Review Code', 'Pull Requests', 'Senior Sitecore', 'Provided Solution', 'Web Applications', 'Test Driven', 'Implemented Complex', 'Created Restful', 'Contributed Design', 'Project Estimations', 'Review Code', 'Pull Requests', 'Associate Technology', 'Sitecore Jss', 'Azure Search', 'Developed Custom', 'Developed Custom', 'Test Driven', 'Azure Functions', 'Project Tracking', 'Senior Software', 'Provided Integration', 'Vitual Tryon', 'Extended Sitecore', 'Associate Software', 'Designed Framework', 'Design Patterns', 'Used Asp', 'Entity Framework', 'Production Support', 'Performed Test', 'Driven Development', 'Agile Development', 'Biju Patnaik', 'Experience Solution', 'Developer Certified', 'Experience Solution', 'Developer Certified']
+Extracted Email Part: mohapatrarohan62
+{'name': ['Rohan', 'Mohapatra'], 'email': 'mohapatrarohan62@gmail.com', 'phone': '+1(469)-956-4330'}
+
+**************************************************
+
+Resume_091023124632_.docx: check 
+Name: ['PRASANTH', 'VELLAMPALLI']
+Extracted Name List: ['Integration Bus', 'Senior Developer', 'Middleware Integration', 'Integration Bus', 'Message Broker', 'Integration Bus', 'Health Care', 'Common Exception', 'Local Queue', 'Remote Queue', 'Unit Testing', 'System Integration', 'Oracle Database', 'Communications Engineering', 'Developer Essentials', 'Connect Essentials', 'North Carolina', 'Till Date', 'Integration Bus', 'Project Name', 'Message Request', 'International Request', 'Business Analysts', 'Connect Enterprise', 'Developed Payment', 'Developed Message', 'Continuous Integration', 'Continuous Delivery', 'Maintained Jira', 'Integration Bus', 'Data Studio', 'Copy Books', 'Middleware Integration', 'Project Name', 'Global Managed', 'File Transfer', 'Messaging Services', 'Developed Message', 'Cobol Copy', 'Queue Managers', 'Cron Jobs', 'Integration Bus', 'Data Studio', 'Integration Bus', 'Project Name', 'Health Plans', 'Rest Applications', 'Async Nodes', 'Used Splunk', 'Rest Applications', 'Automation Project', 'Developed Automated', 'Used Groovy', 'Integration Bus', 'Data Studio', 'Groovy Script', 'Integration Developer', 'Project Name', 'Advertising Applications', 'Message Broker', 'Integration Bus', 'Timer Nodes', 'Developed Exception', 'Integration Bus', 'Message Broker', 'Integration Tools', 'App Connect', 'Integration Bus', 'Message Broker', 'Programming Languages', 'Groovy Script', 'Data Studio', 'Android Studio', 'Software Methodologies', 'Industry Knowledge', 'Health Care']
+Extracted Email Part: prasanth.vellampalli96
+{'name': ['PRASANTH', 'VELLAMPALLI'], 'email': 'prasanth.vellampalli96@gmail.com', 'phone': '804-547-1482'}
+
+**************************************************
+
+Resume_091023124605_.docx: check
+Name: ['PRAVEEN', 'YADAV']
+Extracted Name List: ['Professional Summary', 'Software Development', 'Life Cycle', 'Web Interfaces', 'High Traffic', 'Web Developer', 'Responsive Design', 'Good Knowledge', 'Used Axios', 'Twitter Bootstrap', 'Document Object', 'Pseudo Classes', 'Object Oriented', 'Requirement Analysis', 'Develop User', 'Django Rest', 'Develop Single', 'Page Application', 'React Hooks', 'Use Font', 'Single Page', 'Use Axios', 'Using Git', 'External Product', 'Designed Front', 'End Application', 'User Interface', 'Oracle Maxymiser', 'Side Campaigns', 'Used Google', 'Web Services', 'Agile Methodology', 'Daily Stand', 'Iteration Review', 'Sprint Demos', 'Pivotal Tracker', 'Web Designs', 'Source Control', 'Version Management', 'Agile Scrum', 'Responsive Web', 'Java Script', 'Front End', 'Wells Fargo', 'Developed Object', 'Apache Tomcat', 'Front End', 'Web Developer', 'Attend Daily', 'Web Developer', 'Bluebird Solutions', 'Followed Agile', 'The Presentation', 'Used Java', 'Application Server', 'Developed Message', 'Driven Bean', 'Implemented Graphical', 'User Interface', 'Used Java', 'Business Delegate', 'Service Locator', 'Clear Case', 'Rational Rose']
+Extracted Email Part: praveeny6544
+{'name': ['PRAVEEN', 'YADAV'], 'email': 'praveeny6544@gmail.com', 'phone': None}
+
+**************************************************
+
+Resume_051124211838_Shamila's__Resume_2024.docx: check
+Name: ['SHAMILA', 'Q.', 'BESLOW']
+Extracted Name List: ['Project Manager', 'Networking Experience', 'Strategic Planning', 'Security Clearance', 'Security Clearance', 'Purdue University', 'West Layfette', 'Southern Maryland', 'Google Project', 'Management Certificate', 'Comptia Security', 'Purdue University', 'West Layfette', 'Contract Law', 'Purdue University', 'West Layfette', 'Project Management', 'Brand Champion', 'Financial Steward', 'Driving Business', 'Technical Background', 'Google Suite', 'Office Suite', 'Slack Customer', 'Retention Budgeting', 'Cost Reduction', 'Market Research', 'Penetration Corporate', 'Standardization Executive', 'Management Product', 'Lifecycle Management', 'Agile Methodologies', 'Continuous Process', 'Improvement Full', 'Life Cycle', 'Project Management', 'Revenue Enhancement', 'Inefficiencies Identification', 'Business Management', 'Development Business', 'Development Employee', 'Relations Human', 'Agile Project', 'Budgeting And', 'Effective Communication', 'Process Improvement', 'Project Management', 'Project Scoping', 'And Planning', 'Risk Management', 'Stakeholder Management', 'Work Management', 'Technical Support', 'Customer Service', 'Tech Support', 'Active Directory', 'Microsoft Word', 'Network Systems', 'Network Design', 'Operating Systems', 'Server Administration', 'Windows Server', 'Virtual Servers', 'Microsoft Outlook', 'Microsoft Office', 'Cisco Routers', 'Eagle Harbor', 'Application Lead', 'Maintenance Specialist', 'Arlluk Technology', 'Lead Help', 'Desk Technician', 'Quality Assurance', 'Functional Group', 'Information Technology', 'Mission Assurance', 'Red Team', 'Vulnerability Assessments', 'Computer Network', 'Defensive Cyber', 'Cybersecurity Service', 'Cleared Defense', 'Risk Management', 'Tech Systems', 'Lead Help', 'Desk Support', 'Cyber Security', 'Information Technology', 'Information Security', 'Information Technology', 'Office Manager', 'Lead Help', 'Desk Support', 'Mid Atlantic', 'Active Directory', 'Utilize My', 'Lexis Nexis', 'Help Desk', 'Support Manager', 'Agile Project', 'Management Budgeting', 'And Procurement', 'Effective Communication', 'Process Improvement', 'Project Management', 'Project Scoping', 'And Planning', 'Risk Management', 'Stakeholder Management', 'Work Management', 'Tools Access', 'Cryptography Cyber', 'Forensics Data', 'Security Disaster', 'Recovery Planning', 'Firewall Configuration', 'Malware Identification', 'Mobile Device', 'Security Network', 'Security Security', 'Configuration Security', 'Policies Threat', 'Analysis Threat']
+Extracted Email Part: shamilabeslow
+{'name': ['SHAMILA', 'Q.', 'BESLOW'], 'email': 'shamilabeslow@gmail.com', 'phone': '571) 253-5772'}
+
+**************************************************
+
+Resume_140624131214_.docx: recheck
+Name: ['Oliver', 'Hurley']
+Extracted Name List: ['Oliver Hurley', 'Oliver Hurley', 'Profile Snapshot', 'Seasoned Professional', 'Azure Database', 'Virtual Machines', 'Load Balancing', 'Auto Scaling', 'Resource Manager', 'Orchestrated Jenkins', 'Apache Tomcat', 'Used Jenkins', 'Kubernetes Clusters', 'Technical Skills', 'Bash Shell', 'Amazon Linux', 'Windows Server', 'Azure Monitor', 'Guard Rails', 'Amazon Aurora', 'Technical Skills', 'Bash Shell', 'Amazon Linux', 'Windows Server', 'Azure Monitor', 'Guard Rails', 'Amazon Aurora', 'Professional Experience', 'Azure Architect', 'Marathon Petroleum', 'Marathon Petroleum', 'United States', 'Active Directory', 'Developed Jenkins', 'Kubernetes Clusters', 'Testing Teams', 'Implementation Engineer', 'Implementation Engineer', 'Used Kubernetes', 'Used Jenkins', 'Active Directory', 'Group Policy', 'Cloud Architect', 'Liberty Mutual', 'Insurance Group', 'Liberty Mutual', 'Continuous Deployment', 'Application Servers', 'Stack Monitoring', 'Leveraged Kubernetes', 'Affinity Group', 'Atlassian Tools', 'Jira Agile', 'Active Directory', 'Code Deploy', 'Kubernetes Linux', 'Utilized Kubernetes', 'Cloud Engineer', 'North Chicago', 'Active Directory', 'Jenkins Pipelines', 'Oracle Real', 'Leveraged Jenkins', 'Administered Linux', 'User Management', 'Plugin Management', 'Utilized Kubernetes', 'Created Pyspark', 'Active Directory', 'Active Directory', 'Cloud Engineer', 'Release Manager', 'Elastic Beanstalk', 'Maintaining Docker', 'Kubernetes Linux', 'The Home', 'Home Depot', 'United States', 'Home Depot', 'Created Organizational', 'Business Unit', 'Auto Scaling', 'Command Line', 'Used Kubernetes', 'Used Jenkins', 'Elastic Bean', 'Technology Specialist', 'Collaborative Technology', 'City University', 'Augusta University', 'Professional Experience', 'Azure Architect', 'Marathon Petroleum', 'Marathon Petroleum', 'United States', 'Active Directory', 'Developed Jenkins', 'Kubernetes Clusters', 'Testing Teams', 'Implementation Engineer', 'Implementation Engineer', 'Used Kubernetes', 'Used Jenkins', 'Active Directory', 'Group Policy', 'Cloud Architect', 'Liberty Mutual', 'Insurance Group', 'Liberty Mutual', 'Continuous Deployment', 'Application Servers', 'Stack Monitoring', 'Leveraged Kubernetes', 'Affinity Group', 'Atlassian Tools', 'Jira Agile', 'Active Directory', 'Code Deploy', 'Kubernetes Linux', 'Utilized Kubernetes', 'Cloud Engineer', 'North Chicago', 'Active Directory', 'Jenkins Pipelines', 'Oracle Real', 'Leveraged Jenkins', 'Administered Linux', 'User Management', 'Plugin Management', 'Utilized Kubernetes', 'Created Pyspark', 'Active Directory', 'Active Directory', 'Cloud Engineer', 'Release Manager', 'Elastic Beanstalk', 'Maintaining Docker', 'Kubernetes Linux', 'The Home', 'Home Depot', 'United States', 'Home Depot', 'Created Organizational', 'Business Unit', 'Auto Scaling', 'Command Line', 'Used Kubernetes', 'Used Jenkins', 'Elastic Bean', 'Technology Specialist', 'Collaborative Technology', 'City University', 'Augusta University', 'Beginners Course', 'Professional Scrum', 'Ken Schwarber', 'Solutions Architect', 'Azure Fundamentals', 'Azure Database', 'Administrator Associate', 'Beginners Course', 'Professional Scrum', 'Ken Schwarber', 'Solutions Architect', 'Azure Fundamentals', 'Azure Database', 'Administrator Associate']
+Extracted Email Part: -oliverhurley
+{'name': None, 'email': '-oliverhurley@inbox.lv', 'phone': None}
+
+**************************************************
+
+Resume_140624131321_SaravananIlangovel_2024.docx: check 
+Name: ['SARAVANAN', 'ILANGOVEL']
+Extracted Name List: ['Microsoft Technologies', 'Tech Lead', 'Web Services', 'Restful Services', 'Web Services', 'Micro Service', 'Net Frame', 'Net Core', 'Stored Procedures', 'Web Parts', 'Layout Pages', 'Microsoft Content', 'Management Server', 'Stored Procedures', 'Computer Application', 'Computer Science', 'Madurai Kamaraj', 'Madurai India', 'Operating Systems', 'Web Forms', 'Win Forms', 'Web Services', 'Visual Studio', 'Application Server', 'Web Services', 'Reporting Services', 'Java Script', 'Design Tools', 'Microsoft Visio', 'Rational Rose', 'Reporting Technologies', 'Component Architecture', 'Version Control', 'Tech Lead', 'Automation Platform', 'Developed Web', 'Green Infrastructure', 'Azure Functions', 'Used Storage', 'User Asure', 'Used Cosmos', 'Net Core', 'Entity Framework', 'Micro Service', 'Azure Functions', 'Storage Queue', 'Solix Inc', 'Solix Inc', 'Assurance Wireless', 'Mobile App', 'Solix Lifeline', 'Used Angular', 'Integrated Oauth', 'Micro Services', 'Net Core', 'Entity Framework', 'Micro Service', 'Continuity Logic', 'Front Line', 'Enterprise Business', 'Continuity Management', 'Front Line', 'Disaster Recovery', 'Business Continuity', 'Senior Architect', 'Used Entity', 'Driven Development', 'Staging Environment', 'Programmer Analyst', 'New York', 'Programmer Analyst', 'Washington Mutual', 'Programmer Analyst', 'Programmer Analyst', 'Denso Long', 'Programmer Analyst', 'Baldwin Filters', 'Programmer Analyst', 'Long Beach', 'Programmer Analyst', 'Programmer Analyst', 'Content Management', 'Programmer Analyst', 'Racing Information', 'Programmer Analyst', 'Baldwin Filters', 'Programmer Analyst']
+Extracted Email Part: Saro.ilangovel
+{'name': ['SARAVANAN', 'ILANGOVEL'], 'email': 'Saro.ilangovel@gmail.com', 'phone': '+1 732.925.8125'}
+
+**************************************************
+
+Resume_091023125524_.docx: Format issue
+Name: ['•', 'Summary']
+Extracted Name List: ['Technical Proficiencies', 'Career Experience', 'Remote Sarasota', 'Mobile Architect', 'Mobile Team', 'Apple App', 'Remote Sarasota', 'Technical Team', 'Swift Package', 'Apple App', 'Architect Documents', 'Data Flow', 'Security Audit', 'Class Diagram', 'Mobile Retail', 'Remote Irvine', 'Mobile Architect', 'Mobile Architect', 'Mobile Architect', 'Los Angeles', 'Vapor Server', 'Mobile Architect', 'Mobile Team', 'Technical Lead', 'Hurricane First', 'Responder Application', 'Hurricane First', 'Restful Swift', 'Core Data', 'Demo Video', 'Verde Demo', 'Additional Experience', 'Senior Mobile', 'Mobile Team', 'Rural Sourcing', 'Capital Group', 'Los Angeles', 'Mobile Technical', 'Team Lead', 'Mitsubishi Union', 'Business Integra', 'Los Angeles', 'Application Developer', 'Northrop Grumman', 'Technical Team', 'Application Developer', 'Computer Science', 'New Mexico', 'Matthew Ferguson', 'Mobile Architect', 'Mobile Technologies', 'Specific Frameworks', 'Core Data', 'Async Events', 'Core Location', 'Geo Fence', 'Core Bluetooth', 'Core Graphics', 'Core Animation', 'Swift Package', 'Programming Languages', 'Relational Database', 'Encryption Extension', 'Core Data', 'Android Room', 'Cloud Services', 'Google Firebase', 'Cloud Kit', 'Operating Systems', 'Development Tools', 'Test Flight', 'Android Studio', 'Process Tools', 'Atlassian Bitbucket', 'Kanban Boards']
+Extracted Email Part: matthewfer
+{'name': None, 'email': 'matthewfer@yahoo.com', 'phone': '20230102'}
+
+**************************************************
+
+Resume_091023140406_.doc: format issue
+Resume_140624131211_.doc: format reinvestigateble
+
+resume.pdf: check
+Name: ['Deepti', 'Srivastava']
+Extracted Name List: ['Deepti Srivastava', 'Software Developer', 'Financial Services', 'Software Engineer', 'Software Solutions', 'Software Engineer', 'Indus Net', 'Technologies Ltd', 'Senior Web', 'Chawtech Solutions', 'Weather Risk', 'Management Services', 'Indian Institute', 'Rajasthan Technical', 'Ram Manohar', 'Lohia Avadh']
+Extracted Email Part: deeptis36
+{'name': ['Deepti', 'Srivastava'], 'email': 'deeptis36@gmail.com', 'phone': '+91 9454076698'}
+
+**************************************************
+
+.~lock.Resume_091023134709_.docx#:
+Resume_140624131439_.pdf: check
+{'name': 'Swetha Reddy Pathuri', 'email': 'swethareddypathuri3@gmail.com', 'phone': '+1 (903)-904-3185'}
+
+**************************************************
+
+pragati resume.pdf: check
+Name: ['Pragati', 'Porwal']
+Extracted Name List: ['Pragati Porwal', 'Test Case', 'Test Execution', 'Bug Reporting', 'Manual Testing', 'Acceptance Testing', 'Test Scenarios', 'Test Cases', 'Test Execution', 'Bug Tracking', 'Functional Testing', 'Load Testing', 'Good Knowledge', 'Good Knowledge', 'Good Knowledge', 'Good Knowledge', 'Method Overloading', 'Method Overriding', 'Manual Test', 'Handling Popups', 'Page Object', 'Data Driven', 'Rama University', 'Engineering Scored', 'Shri Radhakrishan', 'Inter College', 'Scored Marks', 'Sec School', 'Scored Marks', 'Manual Tester', 'Leveraged Jira', 'Software Solutions', 'Manual Tester', 'Utilize Jira', 'Vehicle Insurance']
+Extracted Email Part: pragatiporwal101
+{'name': None, 'email': 'pragatiporwal101@gmail.com', 'phone': '8057171700'}
+
+**************************************************
+
+.~lock.Resume_140624130817_.docx#:
+Resume_140624125656_.docx: check
+Name: ['Mounika', 'Appalashetty']
+Extracted Name List: ['Mounika Appalashetty', 'Cloud Specialist', 'Google Cloud', 'Alibaba Cloud', 'Byte Dance', 'Mountain View', 'Site Reliability', 'Implemented Grafana', 'Performed Critical', 'My Vehicle', 'Implemented Java', 'Google Cloud', 'Improved Jenkins', 'Azure Data', 'Azure Logic', 'Led Linux', 'Managed Linux', 'New Relic', 'Kubernetes Engine', 'Utilized Amazon', 'Web Services', 'Autoscaling Groups', 'Developed Infrastructure', 'Next Generation', 'Compute Engine', 'App Engine', 'Cloud Storage', 'Load Balancing', 'Stack Driver', 'Nexus Artifactory', 'Utilized Azure', 'New Relic', 'Configured Master', 'Autoscaling Groups', 'Implemented Ansible', 'Implemented Auditing', 'Kubernetes Cluster', 'Azure Data', 'Azure Logic', 'Azure Platform', 'Maintained Docker', 'Utilized Azure', 'Used Elastic', 'Load Balancer', 'Docker Swarm', 'Implemented Master', 'Change Management', 'Release Management', 'Source Code', 'Source Code', 'Apache Subversion', 'Configured Jenkins', 'Automating Deployment', 'Used Jenkins', 'Automating Builds', 'Agile Scrum', 'Supporting Build', 'Quality Assurance', 'Continuous Integration', 'Deploy Java', 'Automated Cloud', 'Byte Dance', 'Auto Scaling', 'Kubernetes Orchestration', 'Security Automation', 'Version Control', 'Configuration Management', 'Docker Compose', 'Cloud Platforms', 'Google Cloud', 'Alibaba Cloud', 'New Relic', 'Scripting Languages', 'Database Management', 'Web Servers', 'Proxy Servers', 'Automated Testing', 'Operating Systems', 'Red Hat', 'Ascena Retail', 'San Antonio', 'Everest Global', 'Full Stack', 'Release Engineer']
+Extracted Email Part: amounika904
+{'name': ['Mounika', 'Appalashetty'], 'email': 'amounika904@gmail.com', 'phone': '410-505-8960'}
+
+**************************************************
+
+Resume_140624130817_.docx: check
+{'name': ['Omolayo', 'Ojo', 'Tolulope'], 'email': None, 'phone': None}
+
+**************************************************
+
+Resume_140624131304_.pdf: check
+Name: ['ROHAN', 'BRIJLALL']
+Extracted Name List: ['Applications Support', 'Data Analytics', 'Corporate Training', 'Service Desk', 'Technical Support', 'Effectively Providing', 'Project Oversight', 'Technical Transitions', 'Data Analytics', 'Higher Management', 'Executive Dashboards', 'Business Unit', 'Multi Environment', 'Conferencing Configuration', 'Conference Environments', 'Technology Adaptation', 'Hardware Assets', 'Software Applications', 'Software Expertise', 'Monitoring Tools', 'Independent Work', 'Team Leadership', 'Service Level', 'Technical Troubleshooting', 'Continuous Learning', 'Corporate Training', 'Microsoft Windows', 'Microsoft Active', 'Microsoft Exchange', 'Microsoft Windows', 'Microsoft Endpoint', 'Microsoft Office', 'Microsoft Teams', 'Windows Deployment', 'Remote Support', 'Zoom Admin', 'Ticketing System', 'Freshdesk Ticketing', 'Metrics Tools', 'Cisco Webex', 'Citrix Applications', 'Avaya Telephony', 'Conferencing Tools', 'Adobe Software', 'Google Workspace', 'Google Workspace', 'Cloud Solutions', 'Docuware Document', 'Management Suite', 'Docuware Cloud', 'Ricoh Print', 'Xerox Print', 'Cyber Security', 'Carbon Blue', 'Cyber Security', 'Cisco Meraki', 'Security Suite', 'Cisco Access', 'Point Suite', 'Technical Support', 'Help Desk', 'Streamlining Daily', 'Service Level', 'Agreements Policies', 'Manage Support', 'Service Level', 'User Licenses', 'Active Directory', 'Microsoft Endpoint', 'Person Corporate', 'Level Support', 'Corporate Staff', 'Level Executives', 'Support Analysts', 'Technical Support', 'Service Desk', 'Assist Technicians', 'Personal Touch', 'Asset Management', 'Helpdesk Team', 'Train Imaging', 'Hardware Support', 'Service Level', 'Service Desk', 'Triage Helpdesk', 'Manage Service', 'Managed Service', 'Prem Servers', 'Cloud Based', 'Corporate Training', 'Telecom Invoice', 'Company Wide', 'Telecom Services', 'Quality Assurance', 'Remote Employee', 'Monitor Ticketing', 'Call Center', 'High Volumes', 'Person Support', 'Level Executives', 'Horse Racing', 'Assessment Certification', 'Administration Certification']
+Extracted Email Part: BRIJLALL.R
+{'name': ['ROHAN', 'BRIJLALL'], 'email': 'BRIJLALL.R@GMAIL.COM', 'phone': '+1.347.737.6139'}
+
+**************************************************
+
+Resume_091023132652_.pdf: check
+Name: ['ALTYNAI', 'SULTANBAEVA']
+Extracted Name List: ['Adobe Illustrator', 'Adobe Photoshop', 'Adobe Lightroom', 'Advertising Design', 'Brand Identity', 'Editorial Design', 'Project Management', 'Social Media', 'Graphic Designer', 'Ooba Company', 'Graphic Designer', 'Graphic Designer']
+Extracted Email Part: altyshasult28
+{'name': ['ALTYNAI', 'SULTANBAEVA'], 'email': 'altyshasult28@gmail.com', 'phone': '940) 594-1953'}
+
+**************************************************
+
+Resume_051124150830_.docx: [bad format]
+Name: ['Laurel']
+Extracted Name List: ['Business Analyst', 'Business Requirements', 'Business Analysis', 'Agile Methodology', 'Waterfall Methodology', 'Quality Assurance', 'Process Optimization', 'Strategic Planning', 'Data Analysis', 'Requirements Gathering', 'Azure Devops', 'User Acceptance', 'Analytical Thinking', 'Effective Communicator', 'Creative Arts', 'Business Analyst', 'Joint Application', 'Scrum Masters', 'Product Owners', 'Joint Application', 'Business Analyst', 'Blue Cross', 'Blue Shield', 'Business Analyst', 'Project Development', 'Life Cycle', 'Kay Maclean']
+Extracted Email Part: Macleankay14
+{'name': ['Laurel'], 'email': 'Macleankay14@gmail.com', 'phone': '646-972-7631'}
+
+**************************************************
+
+Resume_140624125700_.docx: check
+Name: ['Lakshmana', 'K', 'Immidi']
+Extracted Name List: ['Enterprise Architect', 'Technical Experience', 'Technical Skills', 'Infrastructure Architect', 'Application Recovery', 'Support Enterprise', 'Review Backup', 'Federal Student', 'Application Infrastructure', 'Develop Ansible', 'Develop Ansible', 'Architecture Review', 'Debt Manager', 'App Admins', 'Support Security', 'Prepare Hour', 'Performance Monitoring', 'Change Management', 'Incident Management', 'Medicaid Services', 'Senior Infrastructure', 'Application Infrastructure', 'Cloud Products', 'Manage Infrastructure', 'Provide Cloud', 'Application Infrastructure', 'Developed Ansible', 'Unix Team', 'Windows Team', 'Understand Federal', 'Drug Administration', 'Silver Spring', 'Systems Architect', 'Enterprise Application', 'Recommend Service', 'Oriented Architecture', 'Linux Server', 'Infrastructure Architect', 'Enterprise Infrastructure', 'Domain Architects', 'Microsoft Office', 'Enterprise Linux', 'Senior Systems', 'Enterprise Applications', 'Infrastructure Support', 'Life Technologies', 'Foster City', 'Senior Web', 'Applications Administrator', 'Performed Roles', 'As Applications', 'Performed Application', 'Support Ecommerce', 'Jboss Application', 'Prepare Visio', 'Prepared Run', 'Nissan North', 'Long Beach', 'Senior Unix', 'Web Applications', 'Test Director', 'Google Search', 'Configure Apache', 'Unix Systems', 'Application Server', 'Network Deployment', 'Perform Server', 'Web Engineer', 'Wells Fargo', 'Systems Administrator', 'Systems Analyst', 'Brigade Corporation', 'Banjara Hills', 'Systems Engineer', 'Aleaf Solutions', 'Hitech City', 'State Housing', 'Himayat Nagar', 'Sun Certified', 'Solaris Administrator', 'Microsoft Certified', 'Computer Systems', 'Andhra University', 'Operating Systems', 'Version Control', 'Microsoft Office', 'Web Servers', 'Application Servers', 'Tenable Nessus', 'Security Center', 'Big Brother', 'Workload Mgmt', 'Google Search', 'Cloud Technologies', 'Hybrid Cloud']
+Extracted Email Part: Lakshmana.Immidi
+{'name': ['Lakshmana', 'K', 'Immidi'], 'email': 'Lakshmana.Immidi@gmail.com', 'phone': '847-757-1351'}
+
+**************************************************
+
+Resume_140624130814_.docx: check
+{'name': ['Dee', 'Smith'], 'email': None, 'phone': None}
+
+**************************************************

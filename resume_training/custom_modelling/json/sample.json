@@ -1,0 +1,56 @@
+[
+    [
+        "John Doe is a Software Engineer at Google, located in Mountain View, California.",
+        {
+            "entities": [
+                [0, 8, "Name"],
+                [14, 32, "Designation"],
+                [35, 41, "Companies worked at"],
+                [54, 79, "Location"]
+            ]
+        }
+    ],
+    [
+        "Alice Johnson is a Data Scientist at Amazon in Seattle, Washington.",
+        {
+            "entities": [
+                [0, 13, "Name"],
+                [19, 34, "Designation"],
+                [37, 43, "Companies worked at"],
+                [47, 67, "Location"]
+            ]
+        }
+    ],
+    [
+        "Michael Smith works as a Product Manager at Microsoft, based in Redmond, Washington.",
+        {
+            "entities": [
+                [0, 13, "Name"],
+                [25, 40, "Designation"],
+                [44, 53, "Companies worked at"],
+                [64, 83, "Location"]
+            ]
+        }
+    ],
+    [
+        "Reach out to Jane Doe via email at jane.doe@example.com or visit her office in Boston.",
+        {
+            "entities": [
+                [13, 21, "Name"],
+                [35, 55, "Email Address"],
+                [79, 85, "Location"]
+            ]
+        }
+    ],
+    [
+        "Robert Brown recently joined IBM as a Software Developer, working in New York City.",
+        {
+            "entities": [
+                [0, 12, "Name"],
+                [28, 33, "Companies worked at"],
+                [38, 58, "Designation"],
+                [69, 82, "Location"]
+            ]
+        }
+    ]
+]

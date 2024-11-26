@@ -1,0 +1,64 @@
+[
+    [
+        "Kay Maclean Laurel, MD|646-972-7631 Email: Macleankay14@gmail.com Summary A Business Analyst Professional with 5 years’ experience supporting multiple projects through the different stages of the software development life cycle, eliciting, documenting, analyzing, and completing Business Requirements for stakeholders and business users through various techniques. A very detailed and efficient team player with strong analytical, communication and problem-solving skills. Ability to manage multiple projects simultaneously while executing project deliverables that meet the highest level of client satisfaction in good timelines. Skills and Abilities • Business Analysis • Scrum • Agile Methodology • Waterfall Methodology • Quality Assurance • Process Optimization • Strategic Planning • Data Analysis • Requirements Gathering • Jira • Azure Devops • Tableau • User Acceptance Testing (UAT) • Analytical Thinking • Effective Communicator Education • University of Lagos ◦ Bachelors in Creative Arts. Certificates • CSM (certified scrum master) Experience Accenture (Business Analyst) June 2022 – Present • Focused on defining business value, building functional and technical requirements, creating user stories, acceptance criteria and user personas, and refining backlogs. • Elicits requirements through Joint Application Development (JAD), interviews, questionnaires by working with stakeholders to define and document customer requirements and translate business requirement to detailed user functional, and system requirements. • Translates stakeholder requirements into different tangible deliverables such as functional specifications, user stories, use cases, use case diagrams, workflow diagrams, data model diagrams, mock-ups, and activity diagrams. • Maintains and organizes projects using project management tools (JIRA, Confluence). • Responsible for written/verbal communications within stories, epics, task, sub-task. • Actively participates in idea/brainstorming sessions with stakeholders, providing guidance, best practices, and feasibility information to the discussion. • Collaborates with cross-functional teams across client business units, program, and product management. • Conducts gap analysis and downstream impact exercises for system changes. • Work collaboratively with Scrum Masters, Development teams, and Product Owners to support software delivery. • Assists the scrum team to create the project deliverables agreed upon for the sprint and regularly updates the scrum board and impediment log. • Elicits requirements through Joint Application Development (JAD), interviews, questionnaires by working with stakeholders to define and document customer requirements and translate business requirement to detailed user functional, and system requirements. • Translated stakeholder requirements into different tangible deliverables such as functional specifications, user stories, use cases, use case diagrams, workflow diagrams, data model diagrams, mock-ups, and activity diagrams. Walgreens (Business Analyst) April 2020 – June 2022 • Prioritized work that needs to be done against the capacity and capability of the team • Maintained product backlogs. • Helped the scrum team achieve higher levels of scrum maturity. • Performed all sprint/iteration planning to achieve the client’s functional goals and expectations. • Conducted daily scrums, reduced roadblocks, conducted all sprint ceremonies, provided sprint reporting. • Supported an efficient agile development process through scrum and development sprints. • Determine and monitor key metrics to help measure the effectiveness of our product strategy. • Design and develop to-be processes and technical solutions to meet Walgreens business. Blue Cross Blue Shield (Business Analyst) January 2018- April 20202 • Work in a rapidly changing field. • Partnered with business leaders to gather and document business requirements for strategic and operational projects across the enterprise. • Elicited, analyze, validate, specify, verify, and manage the business needs of the project stakeholders, to include customers, partners, and end users. • Supported business owners and executive sponsors through the project initiation process. • Supported business areas throughout the entire Project Development Life Cycle (PDLC), ensuring the requirements are accurately translated and tracked throughout the project. • Scheduled, plan, and lead requirement gathering and review meetings. • Developed a comprehensive requirements management plan and schedule. • Used the information gathered to identify problems, opportunities, and solutions for the business to achieve better value. • Facilitated requirements prioritization based on business value. • Collaborated with colleagues and stakeholders to gain a thorough understanding of essential business requirements to ensure all are focusing on the same objectives. • Communicated technical concepts to non-technical stakeholders. • Created accurate and understandable detailed documentation including meeting minutes, action items and decisions, business requirements, process flows, risks and issues, use cases, and user stories, and weekly status reporting • Documented and analyze business requirements, processes, and workflows ensuring that requirements statements are complete, consistent, concise, traceable, feasible, unambiguous and verifiable • Assisted business partners with test planning and quality reviews to ensure solutions meet quality and scope objectives",
+        {
+        "entities": [
+            [
+                0,
+                23,
+                "Personal Information"
+            ],
+            [
+                92,
+                189,
+                "Summary"
+            ],
+            [
+                1894,
+                2173,
+                "Skills"
+            ],
+            [
+                2461,
+                2531,
+                "Education"
+            ],
+            [
+                2574,
+                2618,
+                "Certificates"
+            ],
+            [
+                2636,
+                3251,
+                "Experience",
+                {
+                    "employer": "Accenture",
+                    "role": "Business Analyst",
+                    "year": "June 2022 – Present"
+                }
+            ],
+            [
+                3253,
+                3771,
+                "Experience",
+                {
+                    "employer": "Walgreens",
+                    "role": "Business Analyst",
+                    "year": "April 2020 – June 2022"
+                }
+            ],
+            [
+                3773,
+                4406,
+                "Experience",
+                {
+                    "employer": "Blue Cross Blue Shield",
+                    "role": "Business Analyst",
+                    "year": "January 2018 – April 2020"
+                }
+            ]
+        ]
+    }
+    ]
+]

@@ -1,0 +1,4 @@
+Text,Entities
+"Jane-Doe\nEmail: jane.doe@example.com\nPhone: +9876543210","[(0, 8, 'NAME'), (14, 40, 'EMAIL'), (41, 60, 'PHONE')]"
+"John Smith\njohn.smith@domain.com\nContact: 123-456-7890\nSkills: Python, Java, Machine Learning","[(0, 10, 'NAME'), (11, 35, 'EMAIL'), (37, 54, 'PHONE'), (61, 79, 'SKILLS')]"
+"Experience: Software Developer at ABC Corp, 2019-2022\nEducation: BSc Computer Science, XYZ University","[(11, 31, 'JOB_TITLE'), (36, 45, 'COMPANY_NAME'), (47, 51, 'START_DATE'), (52, 56, 'END_DATE'), (72, 95, 'DEGREE'), (97, 115, 'UNIVERSITY')]"

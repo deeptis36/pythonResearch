@@ -1,0 +1,1470 @@
+
+Processing File: Resume_121124142230_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124145735_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Prashant Jais
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124151047_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Skills: Black Box
+Designation: QA Lead
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124143803_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+College Name: Shawan M. Bajwa 
+ 
+      Home: New Jersey City (United States)   
+Designation: Senior Data Solutions Architect 
+  
+Companies worked at: Arbisoft
+Degree: Bachelors Of Computer Science 
+Virtual University
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124145741_Lou_Piombino_Resume_PM__1107_2024_v03aaa.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Sr. Project
+Location: Baxter
+Skills: Collaboration (MS Teams / SharePoint), Agile Tool (VersionOne), SOW / Demos / Tickets (ServiceNow), DevOps, Severity-level Incident Tracker (Cherwell), & Customer Communications (Salesforce), using real-time business metrics & analytics.  
+Key objectives:
+1. Ensure Corporate Portfolio is aligned with Business Priority and Strategy
+2. Establish Portfolio Level Dashboard across all BU Programs, Projects, Initiatives and Bug Fixes bringing together many dissimilar systems
+3.
+Designation: EPMO Lead
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124144500_BrandonCraig.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Microsoft Azure Administrator
+Companies worked at: Microsoft
+Companies worked at: Microsoft
+Skills: SCOM
+Designation: SCCM/SCOM
+Graduation Year: 2016
+Skills: SCOM
+Skills: SCOM
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_091023134709_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Graduation Year: 18718
+Email Address: 135th St.
+Years of Experience: 13 years
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124144916_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: and EMS endeavors
+Graduation Year: 2018
+Graduation Year: 2013
+Graduation Year: 2013
+Graduation Year: 2004
+Degree: B.A. in Computer Science, Magna Cum Laude	1988
+Seattle University
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142317_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_051124151809_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Sugar Land, TX
+Location: Distributed
+Designation: Accolade Administrator
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_140624131206_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_140624130816_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142612_Raj.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Test Engineer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124152544_Sidra'_Quality_Assurance_(Resume).docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_091023140018_Joshua-Price-.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Joshua Price
+Designation: System Engineer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142715_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Kevin Jarvis
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Graduation Year: ─
+Name: ──
+Graduation Year: 2/22
+Location: Taylor
+Designation: Test Engineer
+Designation: Test Engineer
+Designation: Senior Test Engineer
+Degree: Bachelor of Science Engineering Technology University of Houston
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_240724122416_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124145247_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: DAVID MEYER
+Companies worked at: Microsoft
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150143_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Ahmad Rathore
+Designation: Data Quality Analyst
+Designation: Quality Analyst
+Designation: Quality Analyst/Data Analyst
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_061124001647_Glenn_Wallace_Sr._Network_Engineer_February_2024.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: GLENN E. WALLACE
+Graduation Year: 2016
+Designation: Voice/Video/Citrix Network Traffic
+Companies worked at: Cisco
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124145154_Shivani_SAP_Fieldglass.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Companies worked at: SAP Fieldglass Consultant
+Shivani Somireddy
+Houston, TX
++1(832)-987
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_140624125634_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150220_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Akhila Etikala
+Designation: Data Analyst /Business Analyst 
+PROFESSIONAL SUMMARY: 
+
+Designation: Data Analyst
+Designation: Data Analyst/Data Modeler 
+Roles & Responsibilities:    
+• 
+Enhanced data analysis capabilities using SQL for insightful financial trend prediction and management
+Location: Hyderabad
+Designation: Data Analyst/Data Mining Specialist 
+Roles& Responsibilities:  
+• 
+Engineered advanced analytics models using AWS Cloud
+College Name: Osmania University
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124145554_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Ginette N
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_091023125848_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_091023134424_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150054_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+College Name: Srinadh Reddy Gade 
+                  || Sr. Data Analyst || (913) 349-3832 || srinadhreddyg03@gmail.com ||
+
+PROFESSIONAL SUMMARY:
+Senior Data Analyst with 9 years of experience in data integration, classification, profiling, and system migrations.
+Proficient in querying both structured and unstructured data from relational and non-relational systems.
+Skilled in data profiling and data lifecycle management, ensuring data accuracy and quality for reliable decision-making.
+Expertise in big data and cloud technologies with hands-on experience in AWS, Azure, and Snowflake.
+Proficient in improving data quality and accuracy by employing data cleansing and transformation processes with SSIS and Informatica.
+Skilled in creating interactive dashboards and reports using Power BI and Tableau to deliver actionable insights to stakeholders.
+Experienced in collaborative work with cross
+Designation: Data Analyst
+Roles & Responsibilities
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_140624125734_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Technologies/Frameworks: Asp .Net MVC, Javascript, SQL, RESTful APIs, React.js
+College Name: Biju Patnaik University of Technology
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124143531_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Companies worked at: Baton Rouge
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142138_KishoreN.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Location: Architect
+Designation: , Lead Storage Engineer
+Designation: Systems Administrator
+Designation: Backup Administrator
+Location: Hyderabad
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142623_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Ashika 
+
+Companies worked at: Microsoft
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124151519_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: RAJ DIVAKARAN
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124144506_.doc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Error: Could not extract text from Resume_121124144506_.doc
+
+Processing File: Resume_121124142736_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Graduation Year: 2019
+Graduation Year: 2018
+Graduation Year: 2018
+Designation: Software Automated Developer
+Designation: Q.A Analyst leader, Ottawa, ON, Canada
+Tools & Process, Automation Group
+Developed File Uploading(G2S) tool extracting core functionality
+Graduation Year: 2007
+Designation: Software Analyst
+Installed and updated
+Graduation Year: 2007
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124145219_Jyothirmayee_Resume_QA(U)_Q.doc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Error: Could not extract text from Resume_121124145219_Jyothirmayee_Resume_QA(U)_Q.doc
+
+Processing File: Resume_281024035229_Grishma_CV_2024_pdf.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Data Analyst
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142724_Moinul_Hua_Chishty_Resume.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Graduation Year: 2014
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150553_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Data Analyst
+Years of Experience: 13 years
+Designation: Data Analyst
+Designation: Data Analyst
+Designation: Test Lead
+Location: Hyderabad
+Companies worked at: Autosys
+Degree: B.E
+College Name: GITAM UNIVERSITY
+Email Address: --May2011
+
+
+
+           
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124145604_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Emily Smolgovsky
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150920_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Timeika Kee
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142017_Sai_Chaitanya_K-_SAP-GC.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+College Name: Osmania University
+Location: Hyderabad
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_281024034441_Ripaben_Shah_-_Resume_-_BI_and_Data_Analyst.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: R i
+Designation: T E D
+
+Communicated effectively with end
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_091023124632_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+College Name: ACE v11, IBM Integration Bus v10, IBM Websphere MQ v9, IBM Datapower X150/X152, IBM API Connect, ESQL, Java, SQL, IBM Data Studio, Squirrel, Oracle DB, MySQL, XSLT Transformation, XML Transformation, COBOL Copy Books, GitHub, Bitbucket, Gitbash, Putty, WinScp, Jenkins, Eclipse, SoapUI, RFHUtil, Postman, Splunk
+
+Client: Pfizer, Hyderabad, India						Jan
+College Name: ACE v11, IBM Integration Bus v10, IBM Websphere MQ v9, Java, SQL, IBM Data Studio, MySQL, XSLT Transformation, XML Transformation
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142109_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Location: Garden
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150800_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Years of Experience: 8+ years
+College Name: Jawaharlal Nehru Technological University
+Designation: B. Tech
+Electronics and Communications, 05/2014
+
+Languages
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_091023124605_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Graduation Year: 2018
+Skills: java
+Graduation Year: 2015
+Location: Hyderabad
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124143002_janaKotasai.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: JANA KOTA SAI
+Email Address: janakotasaiteja0018@gmail.com
+
+
+
+Years of Experience: 6 years
+Designation: Azure Administrator
+Designation: Certified AWS Developer Associate
+Designation: Certified Terraform Associate.
+Certified Kubernetes Administrator
+Companies worked at: Microsoft
+Companies worked at: Microsoft
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_051124211838_Shamila's__Resume_2024.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: SHAMILA Q.
+Degree: Masters of Science, Business  
+Purdue University
+Degree: Bachelor
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142548_Madan_resume.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Degree: Master of Science in Statistics, 2023 | Sam Houston
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150513_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Years of Experience: 7+ years
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124151030_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: QA Analyst
+Designation: QA Analyst
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_240724122427_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+College Name: Cardiff University
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124151039_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142022_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Graduation Year: 2013
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150210_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Graduation Year: Bachelor
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150649_Ishaq_Zaidi_-_Oracle_DBA.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_140624131214_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Years of Experience: 13 years
+College Name: City University of Seattle
+College Name: Augusta University
+
+
+Professional Experience
+
+AWS & Azure Architect
+Sep’22-Present, Marathon Petroleum, Ohio
+Marathon Petroleum Corp (MPC
+College Name: City University of Seattle
+College Name: Augusta University
+
+
+Certifications
+
+AWS Beginners Course, Edureka
+Professional Scrum Master
+Ken Schwarber
+AWS Solutions Architect
+(ISC)2 Certified in Cybersecurity (CC)
+Azure Fundamentals
+Companies worked at: DP-300
+
+
+AWS Beginners Course, Edureka
+Professional Scrum Master
+Ken Schwarber
+AWS Solutions Architect
+(ISC)2 Certified in Cybersecurity (CC)
+Azure Fundamentals
+Companies worked at: DP-300
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150506_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Degree: West Bengal University of Technology
+Designation: Senior Consultant
+Companies worked at: Wipro
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124151336_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Project Manager / Product Manager, Reuters Enterprise Platform
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150302_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Data Analyst
+Degree: Master of Science in Experimental Statistics (EST), Major: Statistics
+ New Mexico
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142431_.doc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Error: Could not extract text from Resume_121124142431_.doc
+
+Processing File: Resume_121124143801_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+College Name: Shawan M. Bajwa 
+ 
+      Home: New Jersey City (United States)   
+Designation: Senior Data Solutions Architect 
+  
+Companies worked at: Arbisoft
+Degree: Bachelors Of Computer Science 
+Virtual University
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124143840_Charan.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Location: Hyderabad
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142116_.doc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Error: Could not extract text from Resume_121124142116_.doc
+
+Processing File: Resume_121124150342_KrishnaChaitanya_QA.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Krishna Chaitanya
+College Name: Jawaharlal Nehru Technological University
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142445_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Systems Administrator
+Years of Experience: 6 years
+Degree: Bachelor of Science University of Maryland
+Designation: Bookmarks Export/Import
+Designation: System Administrator
+College Name: National Institutes of Health, Quality Technology
+Office of the Director for Information Technology
+Companies worked at: Computer Sciences Corporation
+Designation: Dell/Opal Technologies October
+Companies worked at: Disney World Class Customer Service
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_140624131321_SaravananIlangovel_2024.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: 1998
+
+Location: Chennai
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142512_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Graduation Year: 2024
+College Name: Vignan’s Institute of Information Technology
+Companies worked at: Cognizant Technology Solutions
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124151406_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Jasika Sethi
+Graduation Year: 2021
+Graduation Year: 2016
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124143915_Sruthi__Data_Analyst.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Sruthi Yaram Reddy
+Sr. Data Analyst
+Email: sruthi@yarramreddy.com
+Mobile:
+Designation: Data Analyst
+Location: Chennai
+College Name: Jawaharlal Nehru Technological University
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_091023125524_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Email Address: iOS 16
+Companies worked at: Senior
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124143520_Syamchandu_Data_Enginer.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Companies worked at: Microsoft
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_281024033708_Vijay_Kamble_-_2024_-_GRC_(1).docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: VIJAY KAMBLE
+Years of Experience: 20 years
+Skills: Cloud Security, Privileged and Identity Management, Data Protection, and risk-based compliance including ISMS, PCI
+Designation: Cloud Administrator
+Designation: Cloud Administrator
+Designation: Azure"
+Completed AWS Certified Security
+Companies worked at: Microsoft
+Graduation Year: 2004
+Graduation Year: 2004
+Designation: Azure Active Directory (Azure AD)
+Palo Alto 
+Prisma cloud , IPS
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124143635_EDWIN_PL_RESUME3.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Years of Experience: 9 years
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_091023140406_.doc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Error: Could not extract text from Resume_091023140406_.doc
+
+Processing File: Resume_121124151743_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Years of Experience: 25 years
+Designation: and Test Manager, I have successfully delivered infrastructure and testing automation frameworks, utilizing Pega PRPC to enhance operational efficiency.
+Graduation Year: 31 AS
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_140624131211_.doc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Error: Could not extract text from Resume_140624131211_.doc
+
+Processing File: Resume_121124145645_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Graduation Year: 2023
+Graduation Year: 2022
+Graduation Year: 1991
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124145426_Jyothirmayee_Resume_QA(U)_Q.doc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Error: Could not extract text from Resume_121124145426_Jyothirmayee_Resume_QA(U)_Q.doc
+
+Processing File: Resume_240724122520_.doc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Error: Could not extract text from Resume_240724122520_.doc
+
+Processing File: Resume_121124145913_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150848_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Companies worked at: SQL Queries, Views, Joins, Functions, SQL Stored Procedures, Database Triggers and Cursors and PL/SQL. 
+   Created Typescript reusable components and services to consume REST API's using Component based architecture provided by Angular
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124143958_Hari_Security.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Companies worked at: Microsoft
+Skills: Professional Experience    	
+
+
+
+
+
+TCP/IP
+OWASP
+Firewall
+IDS
+IPS
+Vulnerability Management
+Web Application Scanning
+Threat Protect
+Policy Compliance
+Cloud Agents
+Asset Management
+Governance
+Risk Management and Compliance
+Sourcefire
+Nexpose
+Forcepoint
+Rapid7
+AWS
+Splunk
+LogRhythm
+HP ArcSight
+Metasploit
+NMAP
+Wireshark
+Kali
+Symantec DLP
+MacAfee epos
+Nessus
+Ethereal
+Snort
+RSA Authentication
+Kali Linux
+Maximus | Denver, CO
+Cyber Security Analyst 
+04/2023 - Current
+Responsible for monitoring and, providing analysis in a 24x7x365 using various SIEM, IDS/IPS tools
+Leveraging AWS Native Security services for Cloud Security Operations Also using External tools and integrates with AWS environments and accomplishes the desired objective of Compliance and Audit
+Worked on IDS/IPS Controls operation and monitoring, Endpoint Security and Control, Vulnerability Management, WAF, DDOS, File integrity, Advanced Endpoint Malware Protection, Email Security, Threat Intel, Secure Web Gateway, SIEM and Log Management
+AWS Cloud Operations 24/7 support Lead
+Involved in security product assessments such as Palo Alto, Twist lock, Azure Firewall
+Development of Cloud Formation template automating the creation of VPC and associated AWS resources for the application
+Part of security team and performing analyzing VAPT assessment and closing loop holes in AWS Infra
+Developed an AWS security roadmap which included the AWS services and 3rd party tools to be utilized in the AWS cloud for security monitoring
+Developed an AWS security group strategy, determined naming conventions, owners and approval process for security group changes requests in a promote-to production environment
+Verify that the Windows Virus Definitions on the SEPM are within 24hours from those reported by Symantec
+Experienced in administering, upgrading, and troubleshooting problems with McAfee ePO, McAfee ENS, McAfee NDLP and McAfee NDLPE
+Schedule scans on Symantec and reviewing results and quarantine risk data
+Perform and maintain SAST, DAST, IAST and RASP best practices
+Manage Splunk configuration files like inputs, props, transforms, and lookups
+Upgrading the Splunk Enterprise to 6.2.3 and security patching
+Deploy, configure and maintain Splunk forwarder in different platforms
+Ensuring that the application website is up and available to the users
+Continuous monitoring of the alerts received through mails to check if all the application servers and web servers are up
+Create Splunk Search Processing Language (SPL) queries, Reports, Alerts and Dashboards
+Perform technical analysis on data de-identification tools
+Perform data de-identification implementation in the non-production environment
+Scan and identify using data discovery for sensitive data containing PII, PHI, PCI, and GDPR information
+Ensuring the database refresh containing any sensitive data is detected and masked as defined in the policies
+Installing and Troubleshooting McAfee 8.8, ePO 4.5
+Working closely with Appscan, Symantec and Rapid7 for any malware activity on environment
+Ensuring Symantec DLP policies are in place and scanning the environments for incidents
+Assisting in DLP policy development for the non-production environment
+Monitoring the enforce console for incidents and troubleshooting
+Provide real time intrusion detection host-based monitoring services using Symantec Endpoint
+Assist with the development of process and procedures to improve incident response times, analysis of incidents, and overall functions
+Provide network intrusion detection expertise to support timely and effective decision making of when to declare an accident
+Actively monitored and responded to activity impacting various enterprise endpoints facilitating network communication and data handling (McAfee End Point Security, DLP, Splunk)
+Data Loss Prevention suit, Symantec DLP Product - Implementation and deployment as the champion team
+Gained experience with Symantec DLP Software: DLP Cloud Prevent for Microsoft Office 365, DLP
+Assisted engineers with Splunk troubleshooting
+Created Splunk dashboards for investigations
+Monitor and investigate SOC incidents and alerts with McAfee EPO
+Document all activities during an incident with status updates during the life cycle of the incident
+Analyze network and host-based security appliance logs (Firewalls, NIDS, HIDS, Sys Logs, etc.)
+Centene Corporation | St Louis, Missouri
+Cloud Cyber Security Analyst
+10/2021 - 03/2023
+Implement and maintain NGA Amazon Cloud Service (AWS) security instances and deploy security infrastructure
+Deploy Palo firewall, Panorama, Cisco FTD, FMC and F5 on AWS east and west regions VDSS (Virtual Data Center Security Stack) with redundant availability zones
+Advice and Recommendation to management for AWS security posture improvement
+Enabled and configure cloud trail logs for all VPC's in all AWS accounts
+Monitored cloud environments (AWS) for potential threats and vulnerabilities using security tool, Redlock, to process logs and generate alerts based on rule criteria
+Installed and managed detection servers and cloud detectors
+Deliver the implementation, setup, and management of Symantec DLP
+Provide a solutions-driven, customer-centric approach to clients' data-security challenges
+Performed Single Tier Installation of Symantec DLP for test purpose
+Also performed two tier and three tier installation
+Performed activities including requirement analysis, design and implementations of various client server-based applications using Splunk 5.x, Splunk 6.x
+Experience implementing an operational Splunk environment
+Review, recommend changes and improvements
+Responsible for monitoring and, providing analysis in a 24x7x365 Security Operation Center (SOC) using various SIEM (Splunk), IDS/IPS software tools
+Worked with Symantec DLP version 14.6 and 15.0
+Provide DLP support to end users remotely and Onsite
+Manage and deployed 3000+ endpoints and 100+ detection servers
+Managed DLP Users and their roles
+Analyze network attacks, blocks, detects, and regular Health checkups in environment
+Tuned policies for HIPPA, HITECH, PII, PCI, PHI and SOX
+Scanned File servers, Distributed machines, documents and email repositories, web content, applications, and databases
+Manage system events and messages
+Worked with saved system reports, configure event thresholds and triggers, enable syslog server, log review, configure system alerts, and configure enforce server to send email alerts
+Involved in firewall deployment and management in Azure such as Palo Alto, Azure Firewall
+Developed incident management module to automate the existing incident Management and Incident response process thereby reducing the manual effort of incident analyst by 40%
+Configure response rule for endpoint detection, Network Prevent detection, Cloud storage detection, and data at rest detection
+Created and managed 50+ agent groups
+Assign appropriate policy and response rules to agent group
+Investigated new DLP technologies, Software, patches, and security packages, which improve system performance and system procedures
+Become a trusted advisor in Symantec DLP with our customers and clients
+CBRE | Dallas, TX
+Cyber security Analyst
+02/2019 - 09/2021
+Provided necessary designs and implemented security solutions for egress/ingress points using IDS/IPS sensors across the networks to provide better incident handling and event monitoring
+Developed cyber security standards on NIST frameworks and ensured their proper implementation to reduce risk of vulnerabilities to IT assets
+Developed various functions including identifying, protecting, detecting, responding and recovering for performing concurrent and continuous operation of dynamic security risk
+Reported compliance and operational metrics for network security infrastructure
+Worked with vendors, IT personnel and various departments to deploy new or updated technologies
+Conducted routine hardware and software audits of all supported systems to ensure compliance with established standards, policies, procedures and other requirements
+Periodic security assessment of firewall, routers, switches, VPNs and other network components' security configurations
+Provided support in investigating any actual and potential information security incidents
+Experience with deployment of Symantec DLP- Endpoint Prevent, Network Prevent for Email, and Network Prevent for Web, Network Discover, and ITA
+Installed and applied Qualys Guard appliances and ran various standard reports
+Responsible for supporting customers with Symantec products including Ghost Solution Suite, Deployment Solution, and Symantec Endpoint Protection
+Provided real time intrusion detection host-based monitoring services using Symantec Endpoint
+File Integrity Monitoring - Infrastructure Operations and Administration of Symantec Data Center Security Server
+Deploying and Managing Symantec Endpoint Protection
+
+
+Amigos Software Solutions | Hyd, India
+Cyber Security Analyst
+06/2016 - 11/2018
+Responsible for tracking insider threat alerts involving PHI/PII information
+Performed risk analysis and led remediation efforts for threats and vulnerabilities in response to industry news and vulnerability assessment tool results
+Responsible for information security: Vulnerability management, scanning and remediation of all networked systems
+Tested and created the mobile hardening policy for all cellular devices; Company owned and BYOD
+Researched and documented briefings on threat reports and assessments
+Created the Security Operations Center runbook, a concise procedural guide to handling common security events
+Assisted in the researching of new security toolsets to include: next generation firewalls, Endpoint protection, Security Automation and threat intelligence collection/collaboration tools
+Designed and initiated Insider threat monitoring policies and procedures for databases containing PHI/PII
+Assisted with Social media exercises including the coding and development of security applications
+Assisted the Special Investigations Unit (SIU) with internal employee fraud and misconduct investigations
+Conducted forensic investigations for both employee fraud and malware analysis
+Proactively protected PHI/PII through use of Data Loss Prevention (DLP)
+Monitored for access and exfiltration of sensitive data
+Built active content and logic in SIEM for existing and emerging monitored applications
+Assisted with Symantec DLP Operational alerts, policies, monitoring, investigations and creating Reporting
+Delivered onboarding and security training to new employees
+Delivered weekly and monthly Security Metrics for the CEO and IT Stakeholders
+Avon Technologies Pvt Ltd | Hyd, India
+Information Systems Security Analyst
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150321_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Data Analyst / Software Quality Assurance Analyst
+Designation: Software Analyst
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_281024034755_SenzRes63.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Alan J.
+Designation: Dr. Alan J. Senzel is a Manager and Consultant
+Location: GSK
+Companies worked at: CIBA
+Location: System
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142056_Waseem_Mohammed_2024.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Waseem Mohammed
+Contact
+Graduation Year: 2020
+Graduation Year: 2018
+Graduation Year: 2017
+Designation: Systems Analyst/Project Manager
+Responsibilities:
+Worked on
+Designation: Senior Project Business Analyst/Project Manager
+Responsibilities:
+Worked on migration project
+Designation: Systems Analyst / Project Coordinator
+Responsibilities:
+Worked within DMO (Data Management Optimization) group for CLDW
+Designation: Business Analyst
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_140624131439_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Swetha Reddy Pathuri                             Email: swethareddypathuri3@gmail.com 
+ www.linkedin.com/in/swethareddypathuri/                                   Mobile: +1
+College Name: Jawaharlal Nehru Technological University
+Location: Hyderabad
+Designation: (Application Developer
+Graduation Year: 2020
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124151317_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Osama Azam
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142904_Haribabuu.doc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Error: Could not extract text from Resume_121124142904_Haribabuu.doc
+
+Processing File: Resume_121124150642_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Data Analyst
+Graduation Year: 2019
+Graduation Year: 2018
+Graduation Year: 2018
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124143343_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124143633_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Manuel Reyes
+Companies worked at: 01/2018
+Degree: Bachelor of Science in Computer Engineering Technology
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124145847_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Specialist/Customer Success Manager (CSM)
+College Name: Goodwin Computer Consultants LLC.
+Client: IBM Watson Health Division 					12/2020- 03/2021
+Solutions Architect/Principal Consultant
+Designed and developed reports and dashboards for State of Missouri Health Services. 
+Migrated reports using old business requirements for the new version of Cognos 11.1.7.
+Updated Business requirements for new system.
+College Name: Goodwin Computer Consultants LLC.						
+Client: Lennar Home Builders,						12/2016
+College Name: Wilkes University
+Designation: / Administrator
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124144607_Furqan_A_Syed-CV_(1).docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Companies worked at: Microsoft
+Designation: Backup/Restore Solutions
+Companies worked at: State Street
+Designation: Architect Associate Validation
+College Name: Osmania University
+Location: Hyderabad
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124151203_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150131_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Years of Experience: 8 years
+College Name: Southern University Baton Rouge
+Location: Hyderabad
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150107_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124145134_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Sai Prasanth
+Graduation Year: 2013
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150049_.doc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Error: Could not extract text from Resume_121124150049_.doc
+
+Processing File: Resume_121124151229_Mahalakshmi-Sandeep-FlowCV.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Mahalakshmi Sandeep
+College Name: Manipal University of Dubai
+Fundamentals of Predictive Project Management
+Project Management Institute
+Business Process Management
+MIT
+Business Analysis Foundations International Institute of Business Analysis
+Project Management Professional
+Project Management Institute
+Foundations of Project Management
+Google
+
+
+
+Manipal University of Dubai
+
+
+Manipal University of Dubai
+
+Project Management Institute
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124144414_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Rupesh Gudivada
+Degree: Master in Electrical and Computer Engineering                                                                                      Dec 2022 
+ 
+Relevant Coursework: Advanced Hardware Design, VLSI Design, CMOS Analog Circuits, Advanced Digital Design, RF and Microware Circuits, 
+Integrated Circuit Engineering & Real Time Systems.
+Designation: Test Specialist, CSG International Pvt.
+Graduation Year: 2016
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150043_Jyothirmayee_Resume.doc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Error: Could not extract text from Resume_121124150043_Jyothirmayee_Resume.doc
+
+Processing File: Resume_121124143018_Haribabuu.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Haribabu Katuri
+Years of Experience: 10 years
+College Name: TibcoConsultant 
+ 
+Project:
+Degree: B. Tech from Nagarjuna University, A.P. 
+ 
+ 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142141_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+College Name: University Houston
+
+
+High School or equivalent
+High School or equivalent
+High School or equivalent
+
+Certification of Completion in Computer Networking From KB Institute of TechnologyCertification in Web Development Using DotNet Framework from MicrosoftBachelor's Degree in Computer Science DeVry University Houston 2012
+Certification of Completion in Computer Networking From KB Institute of TechnologyCertification in Web Development Using DotNet Framework from MicrosoftBachelor's Degree in Computer Science DeVry University Houston 2012
+Certification of Completion in Computer Networking From KB Institute of TechnologyCertification in Web Development Using DotNet Framework from MicrosoftBachelor's Degree in Computer Science DeVry University Houston 2012
+
+
+
+
+CERTIFICATION:
+Proficiency in MVC
+
+
+
+Certification in Web Development Using DotNet Framework from Microsoft
+
+
+
+Certification of Completion in Computer Networking From KB Institute of Technology
+Companies worked at: Microsoft
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_140624125656_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Mounika Appalashetty
+Email- amounika904@gmail.com Contact- 410
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150225_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Degree: Bachelor of Science in Aeronautical Engineering, Bachelor of Science in Mechanical Engineering 
+University of California, Davis, Class of 2002 
+Advanced Project Management Certificate 
+Stanford University
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124143859_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Hamzi Intezar
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_140624130817_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124152802_Javed_BA_(_Healthcare_).docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Location: Delhi
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_240724122441_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: KEN DAH
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_140624131304_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Graduation Year: 2012
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_091023132652_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150616_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: JOHN HOGAN
+Designation: Test Analyst
+Designation: Test Analyst
+Designation: System Tester
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142102_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124145949_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Years of Experience: 11+ years
+Companies worked at: Microsoft
+Location: Starbucks
+Companies worked at: Microsoft
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_051124150830_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Location: Laurel
+Years of Experience: 5 years
+Companies worked at: Accenture
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124143037_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Test Engineer
+Graduation Year: 2013
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124145024_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: JOHN J.
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142827_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Software Developer
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142632_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Gustavo C. Lopez 
+
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124142146_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Companies worked at: Microsoft
+Companies worked at: Microsoft
+Companies worked at: Microsoft
+Degree: Masters in Data Science: University
+Companies worked at: Microsoft
+Companies worked at: Microsoft
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124151133_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Designation: Quality Analyst
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150030_Jyothirmayee_Resume_QA(U)_Q.doc
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Error: Could not extract text from Resume_121124150030_Jyothirmayee_Resume_QA(U)_Q.doc
+
+Processing File: Resume_121124144043_Lesley_Badowski_resume_2024_v1.0.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Graduation Year: 2023
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_140624125700_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+College Name: Andhra University in the month and year September
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124144501_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: Subbaraju L
+Companies worked at: Microsoft
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124143226_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Name: ALI MOHAJERI
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150808_Ishaq_Zaidi_-_Oracle_DBA.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124151019_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+College Name: Robert John Ianuale 
+www.linkedin.com/in/robianuale 
+resorb@gmail.com 
+ 
+cell:
+Designation: Microsoft .NET / Visual Studio / Microsoft SQL Server / ASP.NET / JavaScript / REST / C# / HTML  
+Client Description:  
+Developed
+Designation: Senior Software Engineer
+Designation: Microsoft SQL Server, MongoDB, DB2, MySQL, Oracle
+Skills: Windows (XP, 2003, 2008, 7, 10) [32bit & 64bit], Mac OSX, Unix, Linux, Solaris, Free BSD, Fedora
+College Name: Internet Engineering, Cum Laude 
+Assessments 
+ 
+Management & leadership skills: Impact & influence 
+Proficient 
+View Report
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150909_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Years of Experience: 16 Years
+Years of Experience: 16 years
+Designation: System Analyst
+Graduation Year: 2012
+Location: Pune
+Location: Chennai
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124144557_.pdf
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+College Name: P.E. 
+ 
+817-894
+Graduation Year: 31 years
+Graduation Year: 1994
+Graduation Year: 1990
+Email Address:  Bachelor
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_121124150929_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Processing File: Resume_140624130814_.docx
+------------------------------------------------------------------------------------------------------------------------------------------------------
+Entities detected:
+Companies worked at: Microsoft
+Companies worked at: Microsoft
+Graduation Year: 2020
+Graduation Year: 2016
+Companies worked at: Microsoft
+Designation: Azure Administrator
+Designation: Azure Administrator
+Designation: DevOps Engineer Expert
+
+------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Total records processed: 121
