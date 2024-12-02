@@ -1,6 +1,6 @@
 # data.py
 skill_array = [
-   
+   "testng",
     # Programming Languages
     "Java", "JavaScript", "TypeScript", "Python", "PHP", "Ruby", "C#", "C", "C++", "Swift", "Kotlin", "Go", "Rust", "R", "Scala",
     "Perl", "MATLAB", "Dart", "Shell Scripting", "VB.NET", "Groovy", "Haskell", "Lua", "Fortran", "COBOL",
@@ -202,24 +202,57 @@ skill_array = [skill.lower() for skill in skill_array]
 
 
 roles_array = [
-     "professional",
-    "Software Engineer", "Data Scientist", "Product Manager", "UX Designer","Java Developer", 
-    "Project Manager", "Business Analyst", "DevOps Engineer", "Frontend Developer", 
-    "Backend Developer", "Full Stack Developer", "Marketing Manager", 
-    "Customer Support", "HR Manager", "Sales Representative", "UI Designer", 
-    "Web Developer", "Mobile Developer", "Systems Administrator", "Network Engineer",
-    "Database Administrator", "QA Engineer", "Security Analyst", "Technical Writer", 
-    "Chief Executive Officer", "Chief Operating Officer", "Chief Technology Officer", 
-    "Chief Financial Officer", "Project Coordinator", "Researcher", "Consultant",
-    "Graphic Designer", "Art Director", "Operations Manager", "Content Writer", 
-    "Business Development Manager", "Account Manager", "Creative Director", 
-    "Social Media Manager", "Event Planner", "Copywriter", "Data Analyst",
-    "Product Owner", "IT Specialist", "Software Architect", "Legal Advisor", 
-    "Financial Analyst", "Supply Chain Manager", "Content Strategist", "SEO Specialist",
-    "Digital Marketing Manager", "Compliance Officer", "Risk Manager", 
-    "Sales Manager", "Chief Marketing Officer", "Chief Product Officer", 
-    "Operations Director", "Investment Analyst", "Cloud Engineer", "Game Developer"
+    "php developer",
+    "senior security engineer",
+    "Lead Security Engineer  Architect",
+    "Lead Security Engineer & Architect","Sr. Systems Security Engineer","Information Assurance Assessor",
+    "Systems Deployment Engineer", "professional", "Software Engineer", "Data Scientist", "Product Manager", 
+    "UX Designer", "Java Developer", "Project Manager", "Business Analyst", "DevOps Engineer", 
+    "Frontend Developer", "Backend Developer", "Full Stack Developer", "Marketing Manager", "Customer Support", 
+    "HR Manager", "Sales Representative", "UI Designer", "Web Developer", "Mobile Developer", "Systems Administrator", 
+    "Network Engineer", "Database Administrator", "QA Engineer", "Security Analyst", "Technical Writer", 
+    "Chief Executive Officer", "Chief Operating Officer", "Chief Technology Officer", "Chief Financial Officer", 
+    "Project Coordinator", "Researcher", "Consultant", "Graphic Designer", "Art Director", "Operations Manager", 
+    "Content Writer", "Business Development Manager", "Account Manager", "Creative Director", "Social Media Manager", 
+    "Event Planner", "Copywriter", "Data Analyst", "Product Owner", "IT Specialist", "Software Architect", "Legal Advisor", 
+    "Financial Analyst", "Supply Chain Manager", "Content Strategist", "SEO Specialist", "Digital Marketing Manager", 
+    "Compliance Officer", "Risk Manager", "Sales Manager", "Chief Marketing Officer", "Chief Product Officer", 
+    "Operations Director", "Investment Analyst", "Cloud Engineer", "Game Developer", "Technical Support Specialist", 
+    "Operations Assistant", "Legal Consultant", "Executive Assistant", "Business Intelligence Analyst", 
+    "Solutions Architect", "Brand Manager", "Product Designer", "Customer Success Manager", "Business Systems Analyst", 
+    "E-commerce Manager", "Healthcare Administrator", "Nurse Practitioner", "Medical Director", "Physical Therapist", 
+    "Data Engineer", "Marketing Executive", "Team Lead", "Administrative Assistant", "Logistics Coordinator", 
+    "Retail Manager", "Financial Planner", "Accountant", "Event Coordinator", "Digital Content Creator", 
+    "Email Marketing Specialist", "Influencer Marketing Manager", "Training Manager", "Recruiter", "HR Generalist", 
+    "Learning & Development Manager", "Talent Acquisition Specialist", "Organizational Development Consultant", 
+    "Executive Director", "Program Manager", "Corporate Trainer", "Public Relations Specialist", "Brand Strategist", 
+    "Operations Analyst", "Site Reliability Engineer", "Enterprise Architect", "Quality Assurance Analyst", 
+    "Cybersecurity Specialist", "Cloud Solutions Architect", "System Analyst", "IT Project Manager", 
+    "Business Operations Manager", "Client Relationship Manager", "Chief Risk Officer", "B2B Marketing Manager", 
+    "Community Manager", "Sales Engineer", "Network Administrator", "Product Marketing Manager", 
+    "Business Strategy Analyst", "User Interface Developer", "Database Developer", "Mobile App Developer", 
+    "Cloud Solutions Engineer", "Cybersecurity Engineer", "Web Designer", "Help Desk Technician", "Operations Supervisor", 
+    "Supply Chain Analyst", "Content Manager", "Marketing Director", "Retail Assistant Manager", "Financial Controller", 
+    "Brand Ambassador", "E-commerce Specialist", "Legal Manager", "User Experience Researcher", "Customer Experience Specialist", 
+    "Lead Generation Specialist", "Project Director", "HR Director", "Recruitment Manager", "Strategic Partnerships Manager", 
+    "Digital Strategist", "Enterprise Sales Manager", "Financial Controller", "Product Development Manager", 
+    "Head of Operations", "Lead Software Engineer", "Mobile UI/UX Designer", "Regional Sales Manager", "Director of Marketing", 
+    "Client Success Manager", "SEO Manager", "Branding Consultant", "Content Marketing Manager", "Creative Writer", 
+    "Senior Consultant", "Cultural Advisor", "Business Analyst Lead", "Corporate Communications Manager", 
+    "Operations Executive", "Cloud Administrator", "Database Architect", "DevOps Specialist", "Network Architect", 
+    "Sustainability Consultant", "Supply Chain Executive", "Project Specialist", "Commercial Manager", "Quality Manager", 
+    "Service Delivery Manager", "Procurement Manager", "Compliance Manager", "Enterprise Sales Representative", 
+    "Account Executive", "Social Media Strategist", "IT Security Consultant", "Process Improvement Specialist", 
+    "R&D Manager", "Systems Analyst", "Cloud Operations Manager", "Public Relations Manager", "Healthcare Consultant", 
+    "Fundraising Manager", "Accountant General", "Production Manager", "Project Officer", "Content Development Manager", 
+    "Recruitment Officer", "Systems Engineer", "Financial Risk Manager", "Compliance Analyst", "Client Account Manager", 
+    "Operations Consultant", "Investment Banker", "Legal Counsel", "Branding Manager", "Web Architect", 
+    "Chief Data Officer", "Real Estate Manager", "Financial Controller", "Employee Relations Manager", 
+    "Director of Operations", "Technology Consultant", "Supply Chain Director", "Product Marketing Director", 
+    "Director of HR", "E-commerce Director", "Content Editor", "HR Business Partner", "Chief People Officer", 
+    "HR Director", "Employee Experience Manager", "Sustainability Director", "Project Lead", "Organizational Development Specialist"
 ]
+
 roles_array = [role.lower() for role in roles_array]
 
 
@@ -240,8 +273,10 @@ resume_classification = [
     "employment summary",
     "summary",
     "work experience",
+    "work history",
     "summery",
-    "about me"
+    "about me",
+    
 ]
 resume_classification = [classification.lower() for classification in resume_classification]
 
@@ -269,6 +304,8 @@ company_names = [
     "IBM",
 ]
 company_names = [companyname.lower() for companyname in company_names]
+
+
 
 
 
@@ -311,6 +348,7 @@ work_keywords = [
     "professional journey",
     "work record",
     "career path",
+    "experience summary",
 
     # Abbreviated terms
     "exp",  # Short for experience
@@ -398,3 +436,20 @@ degrees = [
     "Doctor of Public Health (DrPH)",
 ]
 degrees = [degree.lower() for degree in degrees]
+
+
+
+
+
+
+software_tools = [
+    "salesforce",
+    "google analytics",
+    "google ads",
+    "google sheets",
+    "google forms",
+    "google drive",
+    "google calendar",
+    "google maps",
+    "google maps api",]
+software_tools = [tool.lower() for tool in software_tools]

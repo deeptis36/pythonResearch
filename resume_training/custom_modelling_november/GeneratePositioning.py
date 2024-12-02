@@ -4,6 +4,8 @@ from fuzzywuzzy import fuzz
 from data import skill_array, roles_array
 from getName import get_name
 
+from getWorkExperience import get_professional_summary
+
 # Load the spaCy model
 nlp = spacy.load('en_core_web_sm')
 
@@ -135,6 +137,11 @@ def clean_text(text):
     cleaned_text = split_text[0].strip()
     
     return text
+
+def get_professional(text):
+  data = get_professional_summary(text)
+  
+  return data
 
 
 
