@@ -1,7 +1,7 @@
 import spacy
 import re
 from fuzzywuzzy import fuzz
-from data import skill_array, roles_array
+from data import skill_array, roles_array,resume_classification,work_keywords
 from getName import get_name
 
 from getWorkExperience import get_professional_summary
@@ -20,6 +20,8 @@ entity_labels = [
     "PRODUCT", "EVENT", "WORK_OF_ART", "LAW", "LANGUAGE",
     "NORP", "EMAIL", "PHONE"
 ]
+
+
 
 def get_word_positions(resumetextInput):
     resumetext = resumetextInput.strip(":")
@@ -112,7 +114,7 @@ def replace_colon_with_space(text):
 
 def get_phone_entity(resumetext):
     phone_objects = []  # Collect all matches in a list
-
+   
     phone_numbers = re.finditer(phone_pattern, resumetext)
 
     for phone in phone_numbers:

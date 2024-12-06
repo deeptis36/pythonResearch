@@ -197,17 +197,26 @@ skill_array = [
 ]
 skill_array = [skill.lower() for skill in skill_array]
 
+month_array = [
+    "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec",
+    "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"
+]
 
-
-
+month_array = [month.lower() for month in month_array]
 
 roles_array = [
-    "php developer",
+    "qa lead","Test Lead","Sr Test Engineer"
+    "qa manager",
+    "qa engineer",
+    ". Net Developer",
+    "Software Developer Engineer",
+    "sr. business process analyst","sr. software qa","sr. quality assurance engineer",
+    "php developer","sr. quality assurance",
     "senior security engineer",
     "Lead Security Engineer  Architect",
     "Lead Security Engineer & Architect","Sr. Systems Security Engineer","Information Assurance Assessor",
     "Systems Deployment Engineer", "professional", "Software Engineer", "Data Scientist", "Product Manager", 
-    "UX Designer", "Java Developer", "Project Manager", "Business Analyst", "DevOps Engineer", 
+    "UX Designer", "Java Developer","assistant project Manager", "Project Manager", "Business Analyst", "DevOps Engineer", 
     "Frontend Developer", "Backend Developer", "Full Stack Developer", "Marketing Manager", "Customer Support", 
     "HR Manager", "Sales Representative", "UI Designer", "Web Developer", "Mobile Developer", "Systems Administrator", 
     "Network Engineer", "Database Administrator", "QA Engineer", "Security Analyst", "Technical Writer", 
@@ -276,6 +285,7 @@ resume_classification = [
     "work history",
     "summery",
     "about me",
+    "programming languages",
     
 ]
 resume_classification = [classification.lower() for classification in resume_classification]
@@ -305,12 +315,14 @@ company_names = [
 ]
 company_names = [companyname.lower() for companyname in company_names]
 
-
+responsibility_keywords = ["responsible", "led", "managed", "handled", "developed", "coordinated", "oversaw", "worked on", "supervised"]
+responsibility_keywords = [responsibility.lower() for responsibility in responsibility_keywords]
 
 
 
 work_keywords = [
     # Common phrases
+  
     "work history",
     "professional summary",    
     "professional experience",    
@@ -318,7 +330,7 @@ work_keywords = [
     "employment summary",
     "work experience",
     "work history",
-
+    "QA TESTING EXPERIENCE",
     # Synonyms and variations
     "career summary",
     "career history",

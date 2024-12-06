@@ -1,74 +1,130 @@
 import re
-from data import roles_array
+from data import roles_array,resume_classification
 import spacy
 from fuzzywuzzy import fuzz
-# Load the spaCy model
-nlp = spacy.load('en_core_web_md')
+
+# Load the SpaCy model
+try:
+    nlp = spacy.load('en_core_web_md')
+except OSError:
+    raise ImportError("SpaCy model 'en_core_web_md' not found. Run `python -m spacy download en_core_web_md` to install it.")
 
 
 def extract_role_from_pattern(line):
-    # List of patterns to check for
-    patterns = ["worked as", "role:", "designation:"]
-    
-    # Regular expression to match each pattern followed by the role
-    for pattern in patterns:
-        regex = r"{}\s*(.*)".format(re.escape(pattern))  # Escape special characters in the pattern
-        
-        # Search for the pattern
-        match = re.search(regex, line, re.IGNORECASE)
-
-        if match:
-            return match.group(1).strip()  # Return the role (everything after the pattern)
-
-    return False  # If no match found, return this    
-def get_role(text):
     """
-    Matches roles based on predefined role list using exact match and spaCy similarity.
+    Extract roles from predefined patterns in a line.
     Args:
-        text (str): Input string.
+        line (str): The input line to search for patterns.
     Returns:
-        str: Matched role, or None if no match is found.
+        str or bool: Extracted role or False if no match found.
     """
-
-
-
-    role = extract_role_from_pattern(text)
-    if role:
-        return role
-
-
-
-    text_lower = text.lower()
-    max_similarity_threshold = 80 
-    # Step 1: Check for exact matches using regex
-    for role in roles_array:
-
-        if re.search(r'\b' + re.escape(role.lower()) + r'\b', text_lower):
-            # print("Exact Match:", role)
-            return role  # Exact match found
-
-    # Step 2: Apply fuzzy logic for approximate matches
-    best_match = None
-    highest_similarity = 0
-
-    for role in roles_array:
-        similarity = fuzz.ratio(role.lower(), text_lower)
-        if similarity > highest_similarity and similarity >= max_similarity_threshold:
-            best_match = role
-            highest_similarity = similarity
-
-    # If a match is found with fuzzy logic
-    if best_match:
-        # print("Fuzzy Match:", best_match)
-        return best_match
-    
+    patterns = ["worked as", "role:", "designation:"]  # Patterns to match
+    for pattern in patterns:
+        regex = r"{}\s*(.*)".format(re.escape(pattern))
+        match = re.search(regex, line, re.IGNORECASE)
+        if match:
+            return match.group(1).strip()  # Return the role after the matched pattern
     return False
+
+
+def retrieve_roles_from_text(text):
+    """
+    Extract roles using NLP entities and patterns from text.
+    Args:
+        text (str): Input text to analyze.
+    Returns:
+        list: List of extracted roles.
+    """
+    roles = []  # To store identified roles
+    lines = text.split("\n")
+    for line in lines:
+        doc = nlp(line)
+        for ent in doc.ents:
+            if ent.label_ in ["JOB_TITLE", "ROLE", "PERSON"]:  # Adjust labels as needed
+                roles.append(ent.text)
+    return roles
+
+
+
+def retrieve_role(text, roles_array):
+    text_lower = text.lower()  # Convert text to lowercase for case-insensitive matching
+   
+    for tmprole in roles_array:
+            if(text.replace(" ", "").lower() == tmprole.replace(" ", "").lower()):
+                return tmprole
+
+    # Check for an exact match in roles_array
+    if text_lower in roles_array:
+        return text  # Return exact match
+
+    # Check for partial matches using regex for whole word matching
+    for role in roles_array:
+        if re.search(r'\b' + re.escape(role.lower()) + r'\b', text_lower):
+           
+            return role  # Return the matched role
+
+  
+    return False 
+
+
+
+def get_role(resume_text):
+
+    text_array = resume_text.split("|")
+    
+    for text in text_array:
+        if any(keyword.lower() in text.lower() for keyword in resume_classification):
+            return False
+       
+        role = retrieve_role(text, roles_array)
+        if role:
+            return role
+      
+        role_from_pattern = extract_role_from_pattern(text)
+        
+        if role_from_pattern:
+            return role_from_pattern
+
+        # Step 2: Extract roles using NLP entity recognition
+        roles_from_nlp = retrieve_roles_from_text(text)
+
+        text_lower = text.lower()
+
+        max_similarity_threshold = 80  # Set threshold for fuzzy matching
+
+        # Step 3: Exact match using regex
+
+       
+        for tmprole in roles_array:
+            if(text.replace(" ", "").lower() == tmprole.replace(" ", "").lower()):
+                return tmprole
+            
+        
+        for drole in roles_array:
+            if re.search(r'\b' + re.escape(drole.lower()) + r'\b', text_lower):           
+                return drole  # Exact match found
+
+        # Step 4: Fuzzy matching for approximate matches
+        best_match = None
+        highest_similarity = 0
+        for role in roles_array:
+            similarity = fuzz.ratio(role.lower(), text_lower)
+            if similarity > highest_similarity and similarity >= max_similarity_threshold:
+                best_match = role
+                highest_similarity = similarity
+
+    
+        if best_match:
+            return best_match
+
+    return False  # No match found
+
 
 # Test the function
 if __name__ == "__main__":
-    input_text = "I am a carpenter with experience ."
-    role = get_role(input_text)
-    if role:
-        print(f"Matched Role: {role}")
+    input_text = "I worked as a software engineer with 5 years of experience."
+    matched_role = get_role(input_text)
+    if matched_role:
+        print(f"Matched Role: {matched_role}")
     else:
         print("No role matched.")

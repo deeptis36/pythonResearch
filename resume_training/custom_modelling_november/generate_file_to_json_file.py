@@ -19,6 +19,8 @@ folder_path = "files"
 # Array to hold extracted resume data
 resume_text_array = []
 
+successfull_count = 0
+failed_count = 0
 # Process each file in the folder
 for filename in os.listdir(folder_path):
     # Construct full file path
@@ -37,42 +39,55 @@ for filename in os.listdir(folder_path):
             #name
             
             terminating_file_name = "Gokul_CV_1124_1.docx"
-            terminating_file_name = "Resume_201124135354_Resuem-Savitha_Gadam.docx"
-            terminating_file_name = "Resume_201124140014_.docx"
-           
+            # terminating_file_name = "Resume_201124135354_Resuem-Savitha_Gadam.docx"
+            terminating_file_name = "Deepti_resume03122024.docx"
+            terminating_file_name = "Resume_201124141649_.docx"
+            terminating_file_name = "Resume_201124152128_Patrick_Murphy_Resume_03.06.24_(1).pdf"
             if True and  filename == terminating_file_name:
                
                 print(f"\n***************************Processing File: {filename} *************************************")
         
                 resume_text = get_resume_text(file_path)
-              
+                if(resume_text == None):
+                    print("file not readable")
+                    continue
+
                 entity_dict = get_word_positions(resume_text)
                
                 entity_skill = get_skills(entity_dict)
                
                 enitity_name = get_name_entity(resume_text)
+                
                 entities.append(enitity_name)
                
                 entity_phone = get_phone_entity(resume_text)
-                for phone in entity_phone:
-                    entities.append(phone)
+             
+                if len(entity_phone) > 0:
+                    for phone in entity_phone:                        
+                        entities.append(phone)
 
-                email = entity_dict.get("EMAIL")[0]
-                entities.append(email)
-
+                email_entity = entity_dict.get("EMAIL")
+                if email_entity:
+                    email = email_entity[0]
+                 
+                    entities.append(email)
+               
                 #append skill
                 for skill in entity_skill:
                     entities.append(skill)
                 
           
-               
                 professional_entity = get_professional(resume_text)
 
-                # print(entities)
-
-
+                if len(professional_entity) > 0:
+                    successfull_count += 1
+                else:
+                    failed_count += 1
+                
                 print("="*150)
+                # print(entities)
                 print(professional_entity)
+
                 resume_data = {
                     "resume_text": resume_text,
                     "entities": entities,  # Adjust this to store parsed entities if needed
@@ -85,6 +100,10 @@ for filename in os.listdir(folder_path):
         except Exception as e:
             print(f"Error processing {filename}: {e}")
 
+
+
+print(f"Successfull count: {successfull_count}")
+print(f"Failed count: {failed_count}")
 exit("terminated successfully")
 # Write the extracted resume data to the JSON file
 with open(output_file, "w", encoding="utf-8") as file:
