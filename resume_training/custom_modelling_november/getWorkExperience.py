@@ -19,29 +19,40 @@ def check_for_text_to_ignore(text):
    
     clean_text = re.sub(r'[^\w\s,.]', ' ', text)  # Remove special chars except commas and spaces
     clean_text = re.sub(r'\s+', ' ', clean_text).strip()  # Normalize spaces
-    
-
+    # print("\n__________________________________________________________\n")
+    # print(f"TEXT: {text}")
     word_count = word_in_text(text)
-
+  
     if word_count == 0:
-       
         return True
     
     doc = nlp(clean_text)
+    
     for ent in doc.ents:
         
         if ent.label_ in {"DATE"}:
             return False
    
+    if text.strip() in reservers_keywords:
+        return False
+    
     for token in doc:
-        
+        if token.text == "professional":
+            return False
+        if token.text.strip() in reservers_keywords:
+            return False
+        if( token.pos_ == "ADP" or token.pos_ == "ADJ" or token.pos_ == "AUX" or token.pos_ == "DET" or token.pos_ == "ADV" ):
+            # print(f"TOKEN: {token.text} - POS: {token.pos_}")
+            return True
         if token.pos_ == "VERB" and token.text.lower() not in month_array and token.text.lower() not in reservers_keywords and token.text.lower() not in skip_to_ignore:
-          
+            # print(f"TOKEN: {token.text} - POS: {token.pos_}")
             return True
     
 
     if word_count > MAX_LENGTH:
+        
         return True
+    
     
     return False
 
@@ -55,41 +66,41 @@ def extract_work_section(resume_text):
     work_text = ""
     for line in lines:
      
-        
+       
         line_to_add = line
-        # clean_text = re.sub(r'[^\w\s,.]', ' ', line)  # Remove special chars except commas and spaces
+        clean_text = re.sub(r'[^\w\s,.]', ' ', line)  # Remove special chars except commas and spaces
         # clean_text = re.sub(r'\.', '', clean_text)   # Remove periods
-        clean_text = re.sub(r'\s+', ' ', line).strip()  
+        clean_text = re.sub(r'\s+', ' ', clean_text).strip()  
         line = clean_text.strip()
     
         if  check_for_text_to_ignore(line):
+          
             continue
 
+        
+        
         word_count = word_in_text(line)
 
-        print("+"*80)
-        print(f"[LINE]: {line} \n")
-        if any(keyword in line.lower() for keyword in work_keywords) and word_count <=3:
-            print("========================================keyword is found =======================================")
-        else:
-            print("Keyword not found")
-        print("-"*80)
+        # print(line,"\n")
        
-        if line.lower() in work_keywords or any(keyword in line.lower() for keyword in work_keywords) and word_count <=3:            
+        if line.lower() in work_keywords or any(keyword in line.lower() for keyword in work_keywords) and word_count <=3:
+            # print(f"start reading: {line}")         
             start_reading = True
 
         if start_reading  and word_count <=3:
-            for word in line.split():
-                if word in other_section:
-                   start_reading = False
+            word = line.split()[0]
+            if word in other_section:
+                # print(f"stop reading: {line}")
+                start_reading = False
+                
         
         if start_reading :
            
             work_text += line_to_add + "\n"
 
-    # print(work_text)
+    print(work_text)
     # exit("ggggggggggggggggggggggggggg")
-    work_text = clean_resume_text(work_text)
+    # work_text = clean_resume_text(work_text)
     
    
     return work_text
@@ -230,18 +241,12 @@ def get_professional_summary(resume_text):
     return extracted_data
 
 
-
-
-
-
-
-
-
-
-file  = "files/Resume_201124152128_Patrick_Murphy_Resume_03.06.24_(1).pdf"
+folder = "files"
+file = "Resume_201124145201_.docx"
+file  = folder+"/"+file
 
 resume_text = get_resume_text(file)
 
 
 professional_summary = get_professional_summary(resume_text)
-print(professional_summary)
+# print(professional_summary)

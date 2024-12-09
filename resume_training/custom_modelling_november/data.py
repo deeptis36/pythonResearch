@@ -1,4 +1,6 @@
 # data.py
+import spacy
+import re
 skill_array = [
    "testng",
     # Programming Languages
@@ -205,7 +207,8 @@ month_array = [
 month_array = [month.lower() for month in month_array]
 
 roles_array = [
-    "qa lead","Test Lead","Sr Test Engineer"
+    "Growth and Sustainability Consultant",
+    "qa lead","Test Lead","Sr Test Engineer","Software Quality Assurance Tester","Software Quality Assurance Engineer",
     "qa manager",
     "qa engineer",
     ". Net Developer",
@@ -270,6 +273,7 @@ resume_classification = [
     "profile",
     "skills",
     "professional experience",
+    "Personal Experience",
     "education",
     "projects",
     "certifications",
@@ -330,6 +334,7 @@ work_keywords = [
     "employment summary",
     "work experience",
     "work history",
+    "Technical Skills",
     "QA TESTING EXPERIENCE",
     # Synonyms and variations
     "career summary",
@@ -465,3 +470,71 @@ software_tools = [
     "google maps",
     "google maps api",]
 software_tools = [tool.lower() for tool in software_tools]
+
+
+
+
+other_than_work_section = list(set(resume_classification) - set(work_keywords))
+
+def check_line_contains_work_keywords(line):
+    clean_text = re.sub(r'[^\w\s,.]', ' ', line)  # Remove special chars except commas and spaces
+    word_count = wordcount_int_text(line)
+    if word_count == 0:
+        return False
+    # if word_count > 3:
+    #     return False
+    
+    # print(f"[LINE]- {line}")
+    words = clean_text.split(",")
+   
+    for word in words:
+        # print(f"[WORD]- {word}\n")
+        if word in work_keywords:
+            # print(f"[MATCH]- {word}")
+            return True
+
+    return False
+def check_line_contains_other_than_work_keywords(line):
+    clean_text = re.sub(r'[^\w\s,.]', ' ', line)  # Remove special chars except commas and spaces
+    word_count = wordcount_int_text(line)
+    if word_count == 0:
+        return False
+    if word_count > 3:
+        return False
+    
+
+    words = clean_text.split()
+    for word in words:
+        if word in other_than_work_section:
+            return True
+
+    return False
+
+
+def wordcount_int_text(text):
+    word_count =0
+    for word in text.split():
+        if len(word.strip()) > 0:
+            word_count += 1
+    
+    return word_count
+
+
+def is_partial_match(line, reserved_keywords):
+    """
+    Check if any reserved keyword partially matches the provided line.
+
+    Args:
+        line (str): The input text to search within.
+        reserved_keywords (list): A list of reserved keywords to match.
+
+    Returns:
+        bool: True if any keyword partially matches, False otherwise.
+    """
+    line_normalized = line.strip().lower()  # Normalize the line (trim and lowercase)
+    
+    for keyword in reserved_keywords:
+        if keyword.lower() in line_normalized:  # Check for partial match
+            return True
+    
+    return False  # No match found

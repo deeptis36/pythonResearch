@@ -43,7 +43,7 @@ for filename in os.listdir(folder_path):
             terminating_file_name = "Deepti_resume03122024.docx"
             terminating_file_name = "Resume_201124141649_.docx"
             terminating_file_name = "Resume_201124152128_Patrick_Murphy_Resume_03.06.24_(1).pdf"
-            if True and  filename == terminating_file_name:
+            if True or filename == terminating_file_name:
                
                 print(f"\n***************************Processing File: {filename} *************************************")
         
@@ -86,7 +86,7 @@ for filename in os.listdir(folder_path):
                 
                 print("="*150)
                 # print(entities)
-                print(professional_entity)
+                # print(professional_entity)
 
                 resume_data = {
                     "resume_text": resume_text,
