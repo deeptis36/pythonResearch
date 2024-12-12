@@ -69,8 +69,16 @@ def retrieve_role(text, roles_array):
 
 
 def get_role(resume_text):
+    
+    if isinstance(resume_text, tuple):
+        resume_text = " ".join(map(str, resume_text))
+
+    # Ensure resume_text is a string
+    if not isinstance(resume_text, str):
+        raise ValueError("Expected a string or tuple convertible to string, but got: {}".format(type(resume_text)))
 
     text_array = resume_text.split("|")
+   
     
     for text in text_array:
         if any(keyword.lower() in text.lower() for keyword in resume_classification):

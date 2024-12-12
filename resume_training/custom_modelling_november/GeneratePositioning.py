@@ -3,7 +3,7 @@ import re
 from fuzzywuzzy import fuzz
 from data import skill_array, roles_array,resume_classification,work_keywords
 from getName import get_name
-
+from rapidfuzz import process, fuzz
 from getWorkExperience import get_professional_summary
 
 # Load the spaCy model
@@ -140,10 +140,191 @@ def clean_text(text):
     
     return text
 
-def get_professional(text):
-  data = get_professional_summary(text)
+
+
+
+def get_position(key, text):
+    """
+    Finds the position of the key in the text.
+
+    Parameters:
+        key (str): The key to search for in the text.
+        text (str): The text to search within.
+
+    Returns:
+        tuple: A tuple containing the start and end index of the key if found, otherwise None.
+    """
+    if not key or not text:
+       
+        return None
+
+    # Use regex to find the key in the text
+    pattern = re.escape(key)  # Escape any special characters in the role
+    pattern = r'\b' + re.escape(key) + r'\b' 
+    match = re.search(pattern, text, re.IGNORECASE)
+   
+    if match:
+        return [match.start(), match.end()]
+   
+    return None
+def get_employer_position_from_text(key, text):
+    """
+    Finds the position of the key in the text.
+
+    Parameters:
+        key (str): The key to search for in the text.
+        text (str): The text to search within.
+
+    Returns:
+        tuple: A tuple containing the start and end index of the key if found, otherwise None.
+    """
+    if not key or not text:
+       
+        return [-1, -1]
+
+    # Use regex to find the key in the text
+    pattern = re.escape(key)  # Escape any special characters in the role
+    pattern = re.escape(key)
+    match = re.search(pattern, text, re.IGNORECASE)
+
+    if match:
+        return [match.start(), match.end()]
+    else:
+        print(f"Key not found in text {key}")
+      
+        print("\n")
+    return [-1, -1]
+
+
+def remove_date_section(match_str):
+    """
+    Removes date-like sections (e.g., "Feb 2024 – Till Date") from the string.
+
+    Parameters:
+        match_str (str): The input string containing a potential date section.
+
+    Returns:
+        str: The string without the date section.
+    """
+    # Regex pattern to match date formats
+    date_pattern = r"\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s+\d{4}\s*(–|to)?\s*(Till Date|\d{4})?\b"
+    
+    # Remove the date section
+    cleaned_str = re.sub(date_pattern, '', match_str).strip()
+    
+    # Remove extra spaces if the date was at the end
+    cleaned_str = re.sub(r'\s+', ' ', cleaned_str)
+    
+    return cleaned_str
+
+
+def get_employer_position(key, text):
+
+    
+    text_lower = text.lower()
+    key_lower = key.lower()
+    
+    employer_position = get_employer_position_from_text(key, text)
+
+    if employer_position is not None:
+        return employer_position 
+    
+    for line in text.split("\n"):        
+        best_match = process.extractOne(key_lower, [line], scorer=fuzz.partial_ratio)
+        if best_match and best_match[1] > 75:           
+            match_str = remove_date_section( best_match[0])
+            match_str1 = best_match[1] 
+                    
+            match_split = match_str.split(":")
+            if len(match_split) > 1:
+                key = match_split[1].strip()
+            else:
+                key = match_split[0].strip()           
+            break
+    
+    employer_position = get_employer_position_from_text(key, text)
+   
+    return employer_position
+
+def get_date_position(date, text):
+    data_split = date.split("-")
+    
+    start_date = data_split[0]
+    end_date = data_split[1]
+    
+    pattern_start = re.escape(start_date).replace(r"\s", r"\s*")  # Replace \s to \s* for flexible spaces
+    pattern_end = re.escape(end_date).replace(r"\s", r"\s*")
+
+    match_start = re.search(pattern_start, text, re.IGNORECASE)
+    match_end = re.search(pattern_end, text, re.IGNORECASE)
+    
+    if match_start and match_end:
+        return [match_start.start(), match_end.end()]
+    
+    return None
+
+
+def get_position_entity(entities,text):
+    
+    main_entities = []
+    for entity in entities:
+        temp_entity = []
+        for key in entity:
+            role = key.get('role')
+            date = key.get('date')
+            employer = key.get('employer')
+
+            location_role = get_employer_position(role,text)
+           
+            location_employer = get_employer_position(employer,text)
+          
+            location_date = get_date_position(date,text)
+            
+            
+            role_enitity = {
+                "label": "ROLE",
+                "start": location_role[0],
+                "end": location_role[1],
+                "word": role,
+                "entity": "ROLE"
+            }
+            if len(location_employer) > 0:
+                employer_entity = {
+                    "label": "EMPLOYER",
+                    "start": location_employer[0],
+                    "end": location_employer[1],
+                    "word": employer,
+                    "entity": "EMPLOYER"
+                }
+                main_entities.append(employer_entity)
+            date_entity = {
+                "label": "DATE",
+                "start": location_date[0],
+                "end": location_date[1],
+                "word": date,
+                "entity": "DATE"
+            }
+
+            main_entities.append(role_enitity)
+            
+            main_entities.append(date_entity)
+   
+    return main_entities
+            
   
-  return data
+
+
+def get_professional(text):
+    data = get_professional_summary(text)
+   
+    if len(data) > 0:       
+        position_data = get_position_entity(data,text)
+        exit("bbbbbbbbbbbbbbbbbbbbbbbbbbb")
+        return position_data
+    return []
+
+
+  
 
 
 

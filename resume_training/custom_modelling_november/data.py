@@ -207,6 +207,21 @@ month_array = [
 month_array = [month.lower() for month in month_array]
 
 roles_array = [
+    "SAP FI RAR Functional Consultant",
+    "SAP RAR SME",
+    "SAP FI RAR Functional Consultant",
+    "SAP FICO Business Analyst",
+    "SAP FICO Consultant",
+    "senior java developer",
+    "maintenance lead","Sr Mulesoft Developer/Feature Lead","Sr MuleSoft Lead Developer","Sr. MuleSoft Lead Developer",
+    "Salesforce QA Tester",
+    "Sr. Software Quality Assurance Engineer",
+    "Software Quality Assurance Engineer",
+    "Sr. Quality Assurance Engineer",
+    "sr. mulesoft developer",
+    "mulesoft developer",
+    "sr. data quality analyst",
+    "data quality analyst",
     "Growth and Sustainability Consultant",
     "qa lead","Test Lead","Sr Test Engineer","Software Quality Assurance Tester","Software Quality Assurance Engineer",
     "qa manager",
@@ -261,8 +276,13 @@ roles_array = [
     "Operations Consultant", "Investment Banker", "Legal Counsel", "Branding Manager", "Web Architect", 
     "Chief Data Officer", "Real Estate Manager", "Financial Controller", "Employee Relations Manager", 
     "Director of Operations", "Technology Consultant", "Supply Chain Director", "Product Marketing Director", 
-    "Director of HR", "E-commerce Director", "Content Editor", "HR Business Partner", "Chief People Officer", 
-    "HR Director", "Employee Experience Manager", "Sustainability Director", "Project Lead", "Organizational Development Specialist"
+    "Director of HR", "E-commerce Director", "Content Editor", "HR Business Partner", "Chief People Officer",
+    "Tibco Developer",
+    "Lean Agilist Scrum Master / Product Owner",
+    "Sr. Scrum Master","Agile Project Manager / Lead Product Owner","Agile Project Manager",
+    "HR Director", "Employee Experience Manager", "Sustainability Director", "Project Lead", 
+    "Organizational Development Specialist",
+    "ERP Implementation Specialist | Team Leader | Developer/Analyst"
 ]
 
 roles_array = [role.lower() for role in roles_array]
@@ -290,6 +310,9 @@ resume_classification = [
     "summery",
     "about me",
     "programming languages",
+    "EDUCATION & OTHER",
+    "PROJECT SUMMARY",
+    "Technical Skills",
     
 ]
 resume_classification = [classification.lower() for classification in resume_classification]
@@ -326,7 +349,7 @@ responsibility_keywords = [responsibility.lower() for responsibility in responsi
 
 work_keywords = [
     # Common phrases
-  
+    "PROJECT SUMMARY",
     "work history",
     "professional summary",    
     "professional experience",    
@@ -359,7 +382,7 @@ work_keywords = [
     # Informal or less structured terms
     "previous jobs",
     "past jobs",
-    "roles and responsibilities",
+    # "roles and responsibilities",
     "positions held",
     "job roles",
     "professional journey",

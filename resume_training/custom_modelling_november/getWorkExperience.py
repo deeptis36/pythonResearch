@@ -2,7 +2,7 @@ import spacy
 import re
 from fuzzywuzzy import fuzz
 from resumeText import get_resume_text  # Ensure this is your custom module
-from data import skill_array, month_array,resume_classification ,work_keywords,roles_array # Import your data arrays
+from data import skill_array,degrees, month_array,resume_classification ,work_keywords,roles_array # Import your data arrays
 from difflib import get_close_matches
 from dateRange import extract_date_ranges
 from role import get_role
@@ -12,23 +12,57 @@ nlp = spacy.load("en_core_web_sm")
 
 other_section = list(set(resume_classification) - set(work_keywords))
 
-reservers_keywords = skill_array + month_array + resume_classification + work_keywords+roles_array
+reservers_keywords =  month_array + resume_classification + work_keywords+roles_array
 skip_to_ignore = ["role:", "designation:", "worked as:", "role: ", "worked as: "]
 MAX_LENGTH = 12
+
+
+
+def find_matches_in_text(text, keyword_arrays):
+    """
+    Check if the text contains any keywords from the given arrays.
+    
+    Args:
+        text (str): The input text to search.
+        keyword_arrays (list): A list of arrays, where each array contains keywords to match.
+    
+    Returns:
+        list: A list of matched keywords. If no matches are found, returns an empty list.
+    """
+    # Combine all keywords into one list
+    # combined_keywords = []
+    # for array in keyword_arrays:
+    #     combined_keywords.extend(array)
+    
+    # Create a regex pattern from the combined keywords
+    pattern = "|".join(map(re.escape, keyword_arrays))
+    
+    # Find all matches in the text
+    matches = re.findall(pattern, text, re.IGNORECASE)  # Case-insensitive match
+    
+    return matches
 def check_for_text_to_ignore(text):
    
     clean_text = re.sub(r'[^\w\s,.]', ' ', text)  # Remove special chars except commas and spaces
     clean_text = re.sub(r'\s+', ' ', clean_text).strip()  # Normalize spaces
-    # print("\n__________________________________________________________\n")
-    # print(f"TEXT: {text}")
+    
     word_count = word_in_text(text)
   
     if word_count == 0:
         return True
+    if word_count > MAX_LENGTH:
+        
+        return True
     
     doc = nlp(clean_text)
     
+    reserve_matches = find_matches_in_text(text.strip() , reservers_keywords)
+    if len(reserve_matches) > 0:
+        return False
+    
     for ent in doc.ents:
+        if ent.label_ in degrees:
+            return True
         
         if ent.label_ in {"DATE"}:
             return False
@@ -36,23 +70,22 @@ def check_for_text_to_ignore(text):
     if text.strip() in reservers_keywords:
         return False
     
+    for ent in doc.ents:
+        
+        if ent.label_ in {"ORG", "GPE"}:
+            return False
+
     for token in doc:
         if token.text == "professional":
+          
             return False
         if token.text.strip() in reservers_keywords:
             return False
-        if( token.pos_ == "ADP" or token.pos_ == "ADJ" or token.pos_ == "AUX" or token.pos_ == "DET" or token.pos_ == "ADV" ):
-            # print(f"TOKEN: {token.text} - POS: {token.pos_}")
+        if( token.pos_ in {"ADP", "ADJ", "AUX", "DET", "ADV"} ):
             return True
         if token.pos_ == "VERB" and token.text.lower() not in month_array and token.text.lower() not in reservers_keywords and token.text.lower() not in skip_to_ignore:
-            # print(f"TOKEN: {token.text} - POS: {token.pos_}")
+         
             return True
-    
-
-    if word_count > MAX_LENGTH:
-        
-        return True
-    
     
     return False
 
@@ -64,7 +97,8 @@ def extract_work_section(resume_text):
     lines = resume_text.split("\n")
     start_reading = False
     work_text = ""
-    for line in lines:
+    filtered_lines = [line for line in lines if not line.lower().startswith("experience in")]
+    for line in filtered_lines:
      
        
         line_to_add = line
@@ -74,23 +108,21 @@ def extract_work_section(resume_text):
         line = clean_text.strip()
     
         if  check_for_text_to_ignore(line):
-          
+           
             continue
 
         
         
         word_count = word_in_text(line)
 
-        # print(line,"\n")
-       
+        
         if line.lower() in work_keywords or any(keyword in line.lower() for keyword in work_keywords) and word_count <=3:
-            # print(f"start reading: {line}")         
+                   
             start_reading = True
 
         if start_reading  and word_count <=3:
             word = line.split()[0]
             if word in other_section:
-                # print(f"stop reading: {line}")
                 start_reading = False
                 
         
@@ -98,34 +130,45 @@ def extract_work_section(resume_text):
            
             work_text += line_to_add + "\n"
 
-    print(work_text)
-    # exit("ggggggggggggggggggggggggggg")
-    # work_text = clean_resume_text(work_text)
+    work_text = clean_resume_text(work_text)
     
    
     return work_text
 
 def clean_line_from_data(line, needles):
-  
-  
+    """
+    Cleans a line by removing all words found in the needles list.
 
-    # Remove each needle from the line
+    Args:
+        line (str): The input string to be cleaned.
+        needles (list): A list of strings (needles) to remove from the line.
+
+    Returns:
+        str: The cleaned string.
+    """
+    if not isinstance(line, str) or not isinstance(needles, list):
+        raise ValueError("Invalid input: 'line' must be a string and 'needles' must be a list.")
+    
+ 
+    
+    # Process each needle and remove its words from the line
     for needle in needles:
-       needle_split = needle.split()
-       for word in needle_split:          
-           line = line.replace(word, "")
-    line = line.replace("-", "")
-    line = line.replace("–", "")
-    # line = line.replace("|", "")
-    
-    
-    return line.strip(), ""
-    
-   
+        if isinstance(needle, str):  # Ensure needle is a string
+            for word in needle.split():  # Split the needle into words
+                if word.strip():  # Avoid empty strings
+                    line = line.replace(word, "")
+
+    # Replace additional unwanted characters
+    unwanted_chars = ["-", "–", "|"]
+    for char in unwanted_chars:
+        line = line.replace(char, "")
+
+    # Return the stripped and cleaned line
+    return line.strip()
+
 
 def clean_resume_text(text):
-    lines = text.split("\n")  # Split text into lines
-
+    lines = text.split("\n") 
     data = []
     
     extracted_data  = []
@@ -158,20 +201,20 @@ def clean_resume_text(text):
             data.append("-")
             
             tmp_date_array.append(tmp_date)
-
-        line,data1 = clean_line_from_data(line, data)
+      
+       
+        line = clean_line_from_data(line, data)
        
         role = get_role(line)
-      
 
-        if role:
-           
+        if role:           
             data.append(role)
             tmp_role = role
            
             tmp_role_array.append(role)
       
-        line , data1 = clean_line_from_data(line, data)
+        line = clean_line_from_data(line, data)
+       
         employer = get_employer(line)
         
         if len(employer) >0:
@@ -191,18 +234,6 @@ def clean_resume_text(text):
       
 
 
-    # print(extracted_data)
-    # print()
-
-    # print("ROLE")
-    # print(tmp_role_array)
-    # print()
-    # print("Date")
-    # print(tmp_date_array)
-    # print()
-    
-    # print("EMPLOYER")
-    # print(tmp_employer_array)
 
     return extracted_data
 
@@ -241,12 +272,10 @@ def get_professional_summary(resume_text):
     return extracted_data
 
 
-folder = "files"
-file = "Resume_201124145201_.docx"
-file  = folder+"/"+file
+# folder = "files"
+# file = "Resume_091224134153_.docx"
+# file  = folder+"/"+file
 
-resume_text = get_resume_text(file)
+# resume_text = get_resume_text(file)
 
-
-professional_summary = get_professional_summary(resume_text)
-# print(professional_summary)
+# professional_summary = get_professional_summary(resume_text)

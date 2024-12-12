@@ -126,6 +126,32 @@ def extract_date_ranges(text):
         )
     """
 
+    date_pattern = r"""
+        (
+            \b(?:January|February|March|April|May|June|July|August|September|October|November|December|  # Full month names
+            Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s?\d{4}  # Month and year (e.g., Nov 2022)
+            |
+            \b\d{2}/\d{4}  # MM/YYYY (e.g., 04/2018)
+            |
+            \b\d{1,2}/\d{2}  # MM/YY (e.g., 4/98, 04/00)
+            |
+            \b\d{4}  # Single year (e.g., 2023)
+        )
+        \s?[–\-~to]+\s?  # Separator: dash, en-dash, tilde, or 'to'
+        (
+            \b(?:January|February|March|April|May|June|July|August|September|October|November|December|  # Full month names
+            Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\s?\d{4}  # Month and year (e.g., Nov 2022)
+            |
+            \b\d{2}/\d{4}  # MM/YYYY (e.g., 04/2018)
+            |
+            \b\d{1,2}/\d{2}  # MM/YY (e.g., 4/98, 04/00)
+            |
+            \b\d{4}  # Single year (e.g., 2023)
+            |
+            Present|Till\s?Date|till\s?date  # 'Present' or 'Till Date'
+        )
+    """
+
 
 
     # Use re.findall to get all matches

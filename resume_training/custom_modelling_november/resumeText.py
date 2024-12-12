@@ -73,3 +73,25 @@ def get_resume_text(file_path):
     else:
         return None  # Return None if the file is neither PDF nor DOCX
     return resume_text.strip()
+
+
+
+
+def get_text_or_delete_if_not_readable(file_path):
+    try:
+        with open(file_path, 'r') as file:
+            # Read and return the file content
+            content = file.read()
+            print(f"The file '{file_path}' is readable.")
+            return content
+    except Exception as e:
+        # If there's an error reading the file, delete it
+        print(f"The file '{file_path}' is not readable: {e}")
+        try:
+            os.remove(file_path)
+            # print(f"The file '{file_path}' has been deleted.")
+            return None
+        except Exception as delete_error:
+            print(f"Failed to delete the file '{file_path}': {delete_error}")
+        return None  # Return
+    return None
