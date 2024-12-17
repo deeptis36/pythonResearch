@@ -8,7 +8,8 @@ from GeneratePositioning import get_word_positions,get_skills,get_name_entity,ge
 from employer import get_employer
 # Generate a timestamped output file name
 current_datetime = datetime.now().strftime("%Y%m%d_%H%M%S")
-output_file = f"json/output_{current_datetime}.json"
+output_file = f"json/set1_{current_datetime}.json"
+output_file_name_list = f"json/file_removal_list_{current_datetime}.json"
 
 # Ensure the 'json' directory exists
 os.makedirs(os.path.dirname(output_file), exist_ok=True)
@@ -20,7 +21,7 @@ folder_path = "files"
 
 # Array to hold extracted resume data
 resume_text_array = []
-
+file_removal_array = []
 successfull_count = 0
 failed_count = 0
 # Process each file in the folder
@@ -47,7 +48,7 @@ for filename in os.listdir(folder_path):
             terminating_file_name = "Resume_201124141649_.docx"
             terminating_file_name = "Resume_201124152128_Patrick_Murphy_Resume_03.06.24_(1).pdf"
             terminating_file_name = "Resume_201124140703_.docx"
-            if True and filename == terminating_file_name:
+            if True or filename == terminating_file_name:
                
                 print(f"\n***************************Processing File: {filename} *************************************")
         
@@ -68,10 +69,7 @@ for filename in os.listdir(folder_path):
                 email_entity = entity_dict.get("EMAIL")
                 
                 professional_entity = get_professional(resume_text)
-                exit("aaaaa")
-          
-                
-                exit("00000000000000000000000000000000000")
+               
 
                 if len(professional_entity) > 0 and  len(entity_phone) > 0 and email_entity and len(entity_skill) > 0:
                     successfull_count += 1
@@ -96,9 +94,12 @@ for filename in os.listdir(folder_path):
                         "entities": entities,  # Adjust this to store parsed entities if needed
                     }
                     resume_text_array.append(resume_data)
+                    file_removal_array.append(file_path)
+
                 else:
                     failed_count += 1
                 
+                print(resume_text_array)
                 print("="*150)
                 # exit(0)
            
@@ -114,11 +115,13 @@ for filename in os.listdir(folder_path):
 
 print(f"Successfull count: {successfull_count}")
 print(f"Failed count: {failed_count}")
-exit("terminated successfully")
+# exit("terminated successfully")
 # Write the extracted resume data to the JSON file
 with open(output_file, "w", encoding="utf-8") as file:
     json.dump(resume_text_array, file, ensure_ascii=False, indent=4)
 
+with open(output_file_name_list, "w", encoding="utf-8") as file:
+    json.dump(file_removal_array, file, ensure_ascii=False, indent=4)
 print(f"\nTotal records processed: {processed_count}")
 print("-" * 150)
 print(f"Extraction complete. Results saved in {output_file}")

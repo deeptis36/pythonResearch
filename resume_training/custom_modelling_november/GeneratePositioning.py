@@ -180,7 +180,7 @@ def get_employer_position_from_text(key, text):
     """
     if not key or not text:
        
-        return [-1, -1]
+        return None
 
     # Use regex to find the key in the text
     pattern = re.escape(key)  # Escape any special characters in the role
@@ -189,11 +189,9 @@ def get_employer_position_from_text(key, text):
 
     if match:
         return [match.start(), match.end()]
-    else:
-        print(f"Key not found in text {key}")
-      
-        print("\n")
-    return [-1, -1]
+   
+     
+    return None
 
 
 def remove_date_section(match_str):
@@ -308,7 +306,7 @@ def get_position_entity(entities,text):
             main_entities.append(role_enitity)
             
             main_entities.append(date_entity)
-   
+ 
     return main_entities
             
   
@@ -319,7 +317,7 @@ def get_professional(text):
    
     if len(data) > 0:       
         position_data = get_position_entity(data,text)
-        exit("bbbbbbbbbbbbbbbbbbbbbbbbbbb")
+        
         return position_data
     return []
 

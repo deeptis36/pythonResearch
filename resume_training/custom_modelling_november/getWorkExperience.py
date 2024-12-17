@@ -130,8 +130,9 @@ def extract_work_section(resume_text):
            
             work_text += line_to_add + "\n"
 
+  
     work_text = clean_resume_text(work_text)
-    
+   
    
     return work_text
 
@@ -153,8 +154,10 @@ def clean_line_from_data(line, needles):
     
     # Process each needle and remove its words from the line
     for needle in needles:
-        if isinstance(needle, str):  # Ensure needle is a string
+        if isinstance(needle, str):
+           
             for word in needle.split():  # Split the needle into words
+                # print(f"NEEDLE: {needle} ,  WORD: {word}")
                 if word.strip():  # Avoid empty strings
                     line = line.replace(word, "")
 
@@ -197,7 +200,7 @@ def clean_resume_text(text):
         if len(date_range) >0:           
             tmp_date = date_range[0]
             data.append(date_range[0])
-            data.append("to")
+            # data.append("to")
             data.append("-")
             
             tmp_date_array.append(tmp_date)
@@ -214,7 +217,7 @@ def clean_resume_text(text):
             tmp_role_array.append(role)
       
         line = clean_line_from_data(line, data)
-       
+      
         employer = get_employer(line)
         
         if len(employer) >0:

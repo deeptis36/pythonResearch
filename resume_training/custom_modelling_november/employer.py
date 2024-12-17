@@ -52,8 +52,8 @@ def extract_client_name(text):
     for pattern in patterns:
         match = re.search(pattern, text)
         if match:
-            print(match.group(1).strip())
-            print(text)
+            # print(match.group(1).strip())
+            # print(text)
             return match.group(1).strip()
     return None
 
@@ -216,7 +216,8 @@ def extract_employers_only_new(text):
     
     add_if_string(client_name)
     if client_name:
-        print("client name", client_name)
+        # print("\n[CLIENT]", client_name)
+        # print("\n")
         employer_name.append(client_name)
         employer_name_str = ', '.join(employer_name) if employer_name else ''
         return client_name
@@ -261,7 +262,7 @@ def get_employer(resume_text):
         if not is_role(text):
             # #print(f"Text: {text}\n")
             new_employers = extract_employers_only_new(text)
-            print(new_employers)
+            # print(new_employers)
             # for employer in new_employers:
             #     add_if_unique(employers, employer)
     # return ""
